@@ -180,9 +180,8 @@ def scam(imgspage, lim):
 
     return imglinks
 
-_help_ = """ replay to image - /reverse """
-_mod_name_ = "IMAGE"
-
+__mod_name__ = "Image"
+__command_list__ = ["reverse"]
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
     "reverse", reverse, pass_args=True, admin_ok=True
