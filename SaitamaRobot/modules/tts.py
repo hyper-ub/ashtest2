@@ -7,7 +7,6 @@ import json
 from datetime import datetime
 from typing import Optional, List
 import time
-import args
 import requests
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
