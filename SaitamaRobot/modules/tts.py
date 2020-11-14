@@ -12,10 +12,10 @@ from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
-from pokemon import dispatcher
-from pokemon.__main__ import STATS
-from pokemon.modules.disable import DisableAbleCommandHandler
-from pokemon.modules.helper_funcs.extraction import extract_user
+from SaitamaRobot import dispatcher
+from SaitamaRobot.__main__ import STATS
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 
 def tts(bot: Bot, update: Update, args):
     current_time = datetime.strftime(datetime.now(), "%d.%m.%Y %H:%M:%S")
