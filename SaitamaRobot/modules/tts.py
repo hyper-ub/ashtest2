@@ -17,7 +17,7 @@ from SaitamaRobot.__main__ import STATS
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 
-def tts(bot: Bot, update: Update, args):
+def tts(update, context):
     context = context.args
     current_time = datetime.strftime(datetime.now(), "%d.%m.%Y %H:%M:%S")
     filename = datetime.now().strftime("%d%m%y-%H%M%S%f")
