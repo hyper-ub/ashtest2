@@ -12,7 +12,7 @@ from SaitamaRobot import dispatcher
 
 @run_async
 def plet(bot: Bot, update: Update):
-    from tg_bot.modules.thonkify_dict import thonkifydict
+    from SaitamaRobot.modules.thonkify_dict import thonkifydict
 
     message = update.effective_message
     if not message.reply_to_message:
