@@ -4,16 +4,17 @@ import base64
 from io import BytesIO
 from PIL import Image
 from telegram import Message, Update, Bot, User
+from telegram.ext import (CallbackContext, CommandHandler, Filters,
+                          MessageHandler, run_async)
+
 from telegram.ext import Filters, MessageHandler, run_async
 from SaitamaRobot.modules.helper_funcs.extraction import extract_user_and_text
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from SaitamaRobot import dispatcher
-
+from SaitamaRobot.modules.thonkify_dict import thonkifydict
 
 @run_async
-def plet(bot: Bot, update: Update):
-    from SaitamaRobot.modules.thonkify_dict import thonkifydict
-
+def plet(update: Update context: CallbackContext):
     message = update.effective_message
     if not message.reply_to_message:
         msg = message.text.split(None, 1)[1]
@@ -53,7 +54,7 @@ def plet(bot: Bot, update: Update):
         buffer.name = 'image.png'
         image.save(buffer, 'PNG')
         buffer.seek(0)
-        bot.send_sticker(chat_id=message.chat_id, sticker=buffer)
+        context.bot.send_sticker(chat_id=message.chat_id, sticker=buffer)
 
 
 __help__ = """
