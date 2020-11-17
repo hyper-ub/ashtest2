@@ -55,6 +55,10 @@ def plet(update: Update, context: CallbackContext):
         image.save(buffer, 'PNG')
         buffer.seek(0)
         context.bot.send_sticker(chat_id=message.chat_id, sticker=buffer)
+        
+PLET_HANDLER = DisableAbleCommandHandler("plet", plet)
+
+dispatcher.add_handler(PLET_HANDLER)
 
 
 __help__ = """
@@ -62,5 +66,6 @@ __help__ = """
 """
 __mod_name__ = "plet"
 
-PLET_HANDLER = DisableAbleCommandHandler("plet", plet, admin_ok=True)
-dispatcher.add_handler(PLET_HANDLER)
+__handlers__ = [
+    PLET_HANDLER
+]
