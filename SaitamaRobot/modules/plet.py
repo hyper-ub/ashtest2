@@ -14,7 +14,7 @@ from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.thonkify_dict import thonkifydict
 
 @run_async
-def plet(update: Update context: CallbackContext):
+def plet(update: Update, context: CallbackContext):
     message = update.effective_message
     if not message.reply_to_message:
         msg = message.text.split(None, 1)[1]
