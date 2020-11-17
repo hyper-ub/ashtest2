@@ -47,7 +47,6 @@ __help__ = """ Text to speech
 """
 __mod_name__ = "TEXT TO SPEECH"
 
-]
 __handlers__ = [
     TTS_HANDLER
 ]
