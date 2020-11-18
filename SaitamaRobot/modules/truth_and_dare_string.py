@@ -16,6 +16,7 @@ TRUTH = (
     "When’s the last time you lied to your parents and why?",
     "Have you ever lied about your age to participate in a contest?",
     "Have you ever been caught checking someone out?",
+    "If you had to cut one friend out of your life, who would it be?",
   
 )
 
