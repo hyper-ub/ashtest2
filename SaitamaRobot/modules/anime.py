@@ -11,8 +11,8 @@ from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-info_btn = "More Information"
-kaizoku_btn = "Kaizoku ☠️"
+info_btn = "More Info👀👀"
+kaizoku_btn = "Kaizoku 👁️"
 kayo_btn = "Kayo 🏴‍☠️"
 animespot_btn = "Animespot ☠️"
 animetm_btn = "Animetm ☠️"
