@@ -184,6 +184,48 @@ def table(update: Update, context: CallbackContext):
     reply_text(random.choice(fun_strings.TABLE))
 
 
+
+@run_async
+def fun(update: Update, context: CallbackContext):
+    bot = context.bot
+    args = context.args
+    message = update.effective_message
+
+    reply_to = message.reply_to_message if message.reply_to_message else message
+
+    curr_user = html.escape(message.from_user.first_name)
+    user_id = extract_user(message, args)
+
+    if user_id:
+        patted_user = bot.get_chat(user_id)
+        user1 = curr_user
+        user2 = html.escape(patted_user.first_name)
+
+    else:
+        user1 = bot.first_name
+        user2 = curr_user
+
+    fun_type = random.choice(("Text", "Gif", "Sticker"))
+    if fun_type == "Gif":
+        try:
+            temp = random.choice(fun_strings.FUN_GIFS)
+            reply_to.reply_animation(temp)
+        except BadRequest:
+            fun_type = "Text"
+
+    if fun_type == "Sticker":
+        try:
+            temp = random.choice(fun_strings.FUN_STICKERS)
+            reply_to.reply_sticker(temp)
+        except BadRequest:
+            fun_type = "Text"
+
+    if fun_type == "Text":
+        temp = random.choice(fun_strings.FUN_TEMPLATES)
+        reply = temp.format(user1=user1, user2=user2)
+        reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
+
+
 __help__ = """
  • `/runs`*:* reply a random string from an array of replies
  • `/slap`*:* slap a user, or get slapped if not a reply
@@ -198,6 +240,7 @@ __help__ = """
  • `/weebify <text>`*:* returns a weebified text
  • `/sanitize`*:* always use this before /pat or any contact
  • `/pat`*:* pats a user, or get patted
+ • `/fun`*:* funny text,stricker and gif send
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
@@ -211,6 +254,7 @@ BLUETEXT_HANDLER = DisableAbleCommandHandler("bluetext", bluetext)
 RLG_HANDLER = DisableAbleCommandHandler("rlg", rlg)
 DECIDE_HANDLER = DisableAbleCommandHandler("decide", decide)
 TABLE_HANDLER = DisableAbleCommandHandler("table", table)
+FUN_HANDLER = DisableAbleCommandHandler("fun",  fun)
 
 dispatcher.add_handler(SANITIZE_HANDLER)
 dispatcher.add_handler(RUNS_HANDLER)
@@ -223,14 +267,15 @@ dispatcher.add_handler(BLUETEXT_HANDLER)
 dispatcher.add_handler(RLG_HANDLER)
 dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
+dispatcher.add_handler(FUN_HANDLER)
 
 __mod_name__ = "Fun"
 __command_list__ = [
     "runs", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide",
-    "table", "pat", "sanitize"
+    "table", "pat", "sanitize","fun"
 ]
 __handlers__ = [
     RUNS_HANDLER, SLAP_HANDLER, PAT_HANDLER, ROLL_HANDLER, TOSS_HANDLER,
     SHRUG_HANDLER, BLUETEXT_HANDLER, RLG_HANDLER, DECIDE_HANDLER, TABLE_HANDLER,
-    SANITIZE_HANDLER
+    SANITIZE_HANDLER,FUN_HANDLER
 ]
