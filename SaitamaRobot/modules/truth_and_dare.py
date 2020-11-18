@@ -4,8 +4,8 @@ import SaitamaRobot.modules.truth_and_dare_string as truth_and_dare_string
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from telegram.ext import CommandHandler, run_async, Filters
-
+from telegram.ext import (CallbackContext, CommandHandler, Filters,
+                          MessageHandler, run_async)
 
 @run_async
 def truth(bot: Bot, update: Update):
