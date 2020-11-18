@@ -42,9 +42,9 @@ TTS_HANDLER = DisableAbleCommandHandler("tts", tts)
 dispatcher.add_handler(TTS_HANDLER)
 
 __help__ = """ Text to speech
-- /tts <your text>
+- /tts <your text> 
 """
-__mod_name__ = "TEXT TO SPEECH"
+__mod_name__ = "Text To Speech"
 
 __handlers__ = [
     TTS_HANDLER
