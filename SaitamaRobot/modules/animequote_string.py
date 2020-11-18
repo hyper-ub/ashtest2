@@ -9,5 +9,9 @@ ANIMEQUOTE = (
     "You guys sure are a worthless bunch. If you wanna wallow in your tears, save it for after you’ve done everything you can. – Seiya Kanie (Amagi Brilliant Park)",
     "Smile. Not for anyone else, but for yourself. Show yourself your own smile. You’ll feel better then. – Rintaro Tatewaki (Magic-Kyun! Renaissance)",
     "It may be hard right now, but you must silence those thoughts. Stop counting only those things that you have lost. What is gone, is gone. – Jinbei (One Piece)",
+    "Remember this… no matter where you go, the strength of your mind and spirit is the most powerful magic of all. – Princess Emeraude (Magic Knight Rayearth)",
+    "I haven’t relied on luck since the moment I was born. Everything has been the result of my choices. – Kagura Mikazuchi (Fairy Tail)",
+    "If praying does not work, and words are ineffective, what’s left is to fight. – Meme Oshino (Bakemonogatari)",
+
 )
 
