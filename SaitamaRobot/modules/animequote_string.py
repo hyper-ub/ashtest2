@@ -16,7 +16,8 @@ ANIMEQUOTE = (
     "Whether a fish lives in a clear stream or a water ditch, so long as it continues swimming forward, it will grow up beautifully. – Koro-sensei (Assassination Classroom)",
     " If you feel yourself hitting up against your limit, remember for what cause you clench your fists! Remember why you started down this path, and let that memory carry you beyond your limit. – All Might (My Hero Academia)",
     "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger, as well as kinder. – Gildarts Clive (Fairy Tail)",
-    "How can you move forward if you keep regretting the past? – Edward Elric (Fullmetal Alchemist)",
+    "How can you move forward if you keep regretting the past? – Edward Elric (Fullmetal Alchemist)"
+    "I envy you because you can easily forget your troubles and sadness. – Kanzaki Urumi (Great Teacher Onizuka:GTO)
     "Maybe there’s only a dark road up ahead. But you still have to believe and keep going. Believe that the stars will light your path, even a little bit. Come on, let’s go on a journey! – Kaori Miyazono (Shigatsu Wa Kimi No Uso)",
     "Although I’m weak and full of flaws, I will never stop moving forward. No matter who I am, no one other than myself will create my own existence. No matter what others may think or feel, I will still move forward as myself. – Oz Vessalius (Pandora Hearts)",
     "In this world, there’s no such thing as ‘failure’ in the first place. The one who knows the ‘ways to win’ more than anyone is also the one who’s experienced the most ‘mistakes’. In other words… You could say ‘failure’ is equal to ‘success’… Couldn’t you? – Toriko (Toriko)",
@@ -33,6 +34,7 @@ ANIMEQUOTE = (
     "No matter what you’re doing, the most essential thing is to not give up. Fail as many times as it takes. Keep trying persistantly untill you can call yourself ‘avarage’. If you can collect a nice group of avarage-level skills, that’s already above-avarage. You’ve created your own sort of ‘talent’. – Yuuji Kazami",
     "People’s lives don’t end when they die, it ends when they lose faith. – Itachi Uchiha (Naruto)",
     "If you don’t like your destiny, don’t accept it. – Naruto Uzumaki (Naruto)",
+    "You know, when I was in high school, I was a troublemaker. I hardly went to school. Before I knew it, I was expelled. When I couldn’t go anymore was when I first realized, that school was a great thing. There’s a lot of friends and lots of fun things. When I got this old, I wanted even more to go to school. That’s why I became a teacher. Because, if I become a teacher, I could stay in school until I die, right? That’s why I’m really happy now. I want you to be like that too. I want you to like school. Once it’s over, it’s too late. – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "When you give up, that’s when the game ends.” – Mitsuyoshi Anzai (Slam Dunk)",
     "All we can do is live until the day we die. Control what we can…and fly free. – Deneil Young (Uchuu Kyoudai or Space Brothers)",
     "Forgetting is like a wound. The wound may heal, but it has already left a scar. – Monkey D. Luffy (One Piece)",
@@ -48,6 +50,8 @@ ANIMEQUOTE = (
     "Hard work is worthless for those that don’t believe in themselves. – Naruto Uzumaki (Naruto)",
     "Mistakes are not shackles that halt one from stepping forward. Rather, they are that which sustain and grow one’s heart. – Mavis Vermillion (Fairy Tail)",
     "A place where someone still thinks about you is a place you can call home. – Jiraiya (Naruto)",
+    "“For you, she maybe just someone among the 400 students, but for a student, there’s only one teacher for them.” – Eikichi Onizuka (Great Teacher Onizuka:GTO)
+    "“There’s no gender distinction among the bad.” – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "Life comes at a cost. Wouldn’t it be arrogant to die before you’ve repaid that debt?” – Yuuji Kazami (The Fruit of Grisaia / Gurizaia no Kajitsu)",
     "Vision is not what your eyes see, but an image that your brain comprehends. – Touko Aozaki (The Garden of Sinners / Kara no Kyōkai)",
     "Hatred and Sorrow are power. They are yours to control. All you have to do is to turn them into strength and use that strength to move forward. – Sebastian Michaelis (Black Butler / Kuroshitsuji)",
@@ -58,7 +62,9 @@ ANIMEQUOTE = (
     "Moving on doesn’t mean you forget about things. It just means you have to accept what’s happened and continue living. – Erza Scarlet (Fairy Tail)",
     "If you keep on hiding your true feelings, who is going to be happy? If you are sad, you should say it out loud!” – Haruhi Fujioka (Ouran High School Host Club)",
     "You can die anytime, but living takes true courage. – Himura Kenshin (Rurouni Kenshin)",
+    "You can't judge a book by it's cover but boxes are a whole nother story – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "Every journey begins with a single step. We just have to have patience. – Milly Thompson (Trigun)",
+    "“A brat who is afraid to be hurt isn’t qualified to love someone.” – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "If nobody cares to accept you and wants you in this world, accept yourself and you will see that you don’t need them and their selfish ideas. – Alibaba Saluja (Universal Warriors)",
     "Don’t be upset because of what you can’t do. Do what you do best, live as carefree and optimistically as you can, because some people aren’t able to do that. – Keima Katsuragi (The World God Only Knows)",
     "If you begin to regret, you’ll dull your future decisions and let others make your choices for you. All that’s left for you then is to die. Nobody can foretell the outcome. Each decision you make holds meaning only by affecting your next decision. – Erwin Smith (Attack on Titan: Shinjeki No Kyojin)",
@@ -102,5 +108,6 @@ ANIMEQUOTE = (
     "The same melody repeats itself as the song grows richer and more beautiful. Wouldn’t it be wonderful if we could live seemingly constant lives while experiencing changes bit by bit? – Sayuri Kurata (Kanon)",
     "I never thought about winning making me cool, or losing making me uncool. But you’re right. If anything… Giving up before you even try is kind of uncool. That’s why I want to be someone who’ll fight as many times as it takes, and never give up. That’s got to be way more cooler. – Tachibana Hotaru (Aoharu x Kikanjuu)",
     "Stand tall and be proud. No matter how weak or unworthy you feel keep your heart burning, grit your teeth and move forward. If you just curl up in a ball and hide, time will pass you by. It won't stop for you while you wallow in your grief. - Kyojuro Rengoku (Demon Slayer:Kimetsu No Yaiba)",
+    "You think you can just escape? Walk out of this world like it’s some bad movie? It’s too easy to make like a bird. To flap your wings as you chicken out after causing all these problems. The tough part’s walking. Taking what comes along and walking right through it. That’s what real people do. – Eikichi Onizuka (Great Teacher Onizuka:GTO)
 )
 
