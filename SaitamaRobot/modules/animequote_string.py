@@ -39,7 +39,16 @@ ANIMEQUOTE = (
     "If you don’t share someone’s pain, you can never understand them. – Nagato (Naruto)",
     "Whatever you lose, you’ll find it again. But what you throw away you’ll never get back. – Himura Kenshin (Rurouni Kenshin)",
     "We don’t have to know what tomorrow holds! That’s why we can live for everything we’re worth today! – Natsu Dragneel (Fairy Tail)",
-
+    "Being weak is nothing to be ashamed of… Staying weak is !! – Fuegoleon Vermillion (Black Clover)",
+    "Reject common sense to make the impossible possible. – Simon (Tengen Toppa Gurren Lagann)"
+    "If you really want to be strong… Stop caring about what your surrounding thinks of you! – Saitama (One Punch Man)",
+    "Who decides limits? And based on what? You said you worked hard? Well, maybe you need to work a little harder. Is that really the limit of your strength? Could the you of tomorrow beat you today? Instead of giving in, move forward. – Saitama (One Punch Man)",
+    "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own. – Jiraiya (Naruto)"
+    "Hard work is worthless for those that don’t believe in themselves. – Naruto Uzumaki (Naruto)",
+    "Mistakes are not shackles that halt one from stepping forward. Rather, they are that which sustain and grow one’s heart. – Mavis Vermillion (Fairy Tail)",
+    "A place where someone still thinks about you is a place you can call home. – Jiraiya (Naruto)",
+    "Life comes at a cost. Wouldn’t it be arrogant to die before you’ve repaid that debt?” – Yuuji Kazami (The Fruit of Grisaia / Gurizaia no Kajitsu)",
+    "Vision is not what your eyes see, but an image that your brain comprehends. – Touko Aozaki (The Garden of Sinners / Kara no Kyōkai)",
  
 )
 
