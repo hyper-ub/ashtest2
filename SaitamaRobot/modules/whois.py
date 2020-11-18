@@ -23,7 +23,7 @@ from SaitamaRobot.modules.helper_funcs.filters import CustomFilters
 import SaitamaRobot.modules.sql.users_sql as sql
 
 @run_async
-def info(bot: Bot, update: Update, args: List[str]):
+def whois(bot: Bot, update: Update, args: List[str]):
     message = update.effective_message
     chat = update.effective_chat
     user_id = extract_user(update.effective_message, args)
@@ -112,5 +112,5 @@ def info(bot: Bot, update: Update, args: List[str]):
 
     update.effective_message.reply_text(text, parse_mode=ParseMode.HTML, disable_web_page_preview=True)
 
-INFO_HANDLER = DisableAbleCommandHandler("info", info, pass_args=True)
-dispatcher.add_handler(INFO_HANDLER)
+WHOIS_HANDLER = DisableAbleCommandHandler("whois", whois, pass_args=True)
+dispatcher.add_handler(WHOIS_HANDLER)
