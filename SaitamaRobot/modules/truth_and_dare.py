@@ -1,11 +1,11 @@
 import html
 import random
-import SaitamaRobot.modules.truth_and_dare_string as truth_and_dare_string
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
+from SaitamaRobot.modules.truth_and_dare_string import truth_and_dare_string
 
 @run_async
 def truth(bot: Bot, update: Update):
