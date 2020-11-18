@@ -12,7 +12,7 @@ ANIMEQUOTE = (
     "Remember this… no matter where you go, the strength of your mind and spirit is the most powerful magic of all. – Princess Emeraude (Magic Knight Rayearth)",
     "I haven’t relied on luck since the moment I was born. Everything has been the result of my choices. – Kagura Mikazuchi (Fairy Tail)",
     "If praying does not work, and words are ineffective, what’s left is to fight. – Meme Oshino (Bakemonogatari)",
-   "Whether a fish lives in a clear stream or a water ditch, so long as it continues swimming forward, it will grow up beautifully. – Koro-sensei (Assassination Classroom)",
+    "Whether a fish lives in a clear stream or a water ditch, so long as it continues swimming forward, it will grow up beautifully. – Koro-sensei (Assassination Classroom)",
     " If you feel yourself hitting up against your limit, remember for what cause you clench your fists! Remember why you started down this path, and let that memory carry you beyond your limit. – All Might (My Hero Academia)",
     "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger, as well as kinder. – Gildarts Clive (Fairy Tail)",
     "How can you move forward if you keep regretting the past? – Edward Elric (Fullmetal Alchemist)",
