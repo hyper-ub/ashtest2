@@ -9,12 +9,12 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
 
 @run_async
 def truth(bot: Bot, update: Update):
-    context = context.args
+    args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.TRUTH))
 
 @run_async
 def dare(bot: Bot, update: Update):
-    context = context.args
+    args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.DARE))
 
 __help__ = """
