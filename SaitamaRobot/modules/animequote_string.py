@@ -64,6 +64,8 @@ ANIMEQUOTE = (
     "Anything can happen. No one ever thinks it will until it does. What will happen, happens. That’s how the world is. The most important thing is to not let the tragedy defeat you. To believe that you can get through it. – Kyousuke Natsume (Little Busters!)",
     "You’ll only realize that you truly love someone if they already caused you enormous pain. Your enemies can never hurt you the way your loved ones can. It’s the people close to your heart that can give you the most piercing wound. Love is a double-edged sword, it can heal the wound faster or it can sink the blade even deeper. – Himura Kenshin (Rurouni Kenshin)",
     "It is at the moment of death that humanity has value.” – Archer (Fate Series)"
-    "A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, he shall obtain a powerful, unmatched heart. – Edward Elric (Fullmetal Alchemist: Brotherhood)" 
+    "A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, he shall obtain a powerful, unmatched heart. – Edward Elric (Fullmetal Alchemist: Brotherhood)",
+    "Feel The Rage. The Powerful, Pure Rage Of Not Being Able To Forgive Will Become Your Unswerving Drive To Take Action. - Giyuu Tomioka (Demon Slayer: Kimetsu No Yaiba)",
+    "No Matter How Many People You May Lose, You Have No Choice But To Go On Living -- No Matter How Devastating The Blows, Maybe. - Tanjiro Kamado (Demon Slayer: Kimetsu No Yaiba)"
 )
 
