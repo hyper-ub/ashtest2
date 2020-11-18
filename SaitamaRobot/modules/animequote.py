@@ -1,6 +1,6 @@
 import html
 import random
-import SaitamaRobot.modules.animequotestring as animequotestring
+import SaitamaRobot.modules.animequote_string as animequote_string
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
