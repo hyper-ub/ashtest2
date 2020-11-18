@@ -31,7 +31,7 @@ ANIMEQUOTE = (
     "A road is something that you make yourself. – Jotaro Kujo (JoJo’s Bizarre Adventure)",
     "No matter what you’re doing, the most essential thing is to not give up. Fail as many times as it takes. Keep trying persistantly untill you can call yourself ‘avarage’. If you can collect a nice group of avarage-level skills, that’s already above-avarage. You’ve created your own sort of ‘talent’. – Yuuji Kazami",
     "People’s lives don’t end when they die, it ends when they lose faith. – Itachi Uchiha (Naruto)",
-    "If you don’t like your destiny, don’t accept it. – Naruto Uzumaki (Naruto)"
+    "If you don’t like your destiny, don’t accept it. – Naruto Uzumaki (Naruto)",
     "When you give up, that’s when the game ends.” – Mitsuyoshi Anzai (Slam Dunk)",
     "All we can do is live until the day we die. Control what we can…and fly free. – Deneil Young (Uchuu Kyoudai or Space Brothers)",
     "Forgetting is like a wound. The wound may heal, but it has already left a scar. – Monkey D. Luffy (One Piece)",
@@ -43,18 +43,19 @@ ANIMEQUOTE = (
     "Reject common sense to make the impossible possible. – Simon (Tengen Toppa Gurren Lagann)"
     "If you really want to be strong… Stop caring about what your surrounding thinks of you! – Saitama (One Punch Man)",
     "Who decides limits? And based on what? You said you worked hard? Well, maybe you need to work a little harder. Is that really the limit of your strength? Could the you of tomorrow beat you today? Instead of giving in, move forward. – Saitama (One Punch Man)",
-    "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own. – Jiraiya (Naruto)"
+    "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own. – Jiraiya (Naruto)",
     "Hard work is worthless for those that don’t believe in themselves. – Naruto Uzumaki (Naruto)",
     "Mistakes are not shackles that halt one from stepping forward. Rather, they are that which sustain and grow one’s heart. – Mavis Vermillion (Fairy Tail)",
     "A place where someone still thinks about you is a place you can call home. – Jiraiya (Naruto)",
     "Life comes at a cost. Wouldn’t it be arrogant to die before you’ve repaid that debt?” – Yuuji Kazami (The Fruit of Grisaia / Gurizaia no Kajitsu)",
     "Vision is not what your eyes see, but an image that your brain comprehends. – Touko Aozaki (The Garden of Sinners / Kara no Kyōkai)",
-    "Hatred and Sorrow are power. They are yours to control. All you have to do is to turn them into strength and use that strength to move forward. – Sebastian Michaelis (Black Butler / Kuroshitsuji)"
-    "It’s not always possible to do what we want to do, but it’s important to believe in something before you actually do it. – Might Guy (Naruto)"
+    "Hatred and Sorrow are power. They are yours to control. All you have to do is to turn them into strength and use that strength to move forward. – Sebastian Michaelis (Black Butler / Kuroshitsuji)",
+    "It’s not always possible to do what we want to do, but it’s important to believe in something before you actually do it. – Might Guy (Naruto)",
     "Don’t beg for things. Do it yourself, or else you won’t get anything. – Renton Thurston (Eureka Seven)",
+    "I will fulfill my duty! I won't let anyone here die! - Kyojuro Rengoku (Demon Slayer:Kimetsu No Yaiba)",
     "Life and death are like light and shadow. They’re both always there. But people don’t like thinking about death, so subconsciously, they always look away from it. – Yato (Noragami)",
     "Moving on doesn’t mean you forget about things. It just means you have to accept what’s happened and continue living. – Erza Scarlet (Fairy Tail)",
-    "If you keep on hiding your true feelings, who is going to be happy? If you are sad, you should say it out loud!” – Haruhi Fujioka (Ouran High School Host Club)"
+    "If you keep on hiding your true feelings, who is going to be happy? If you are sad, you should say it out loud!” – Haruhi Fujioka (Ouran High School Host Club)",
     "You can die anytime, but living takes true courage. – Himura Kenshin (Rurouni Kenshin)",
     "Every journey begins with a single step. We just have to have patience. – Milly Thompson (Trigun)",
     "If nobody cares to accept you and wants you in this world, accept yourself and you will see that you don’t need them and their selfish ideas. – Alibaba Saluja (Universal Warriors)",
@@ -63,7 +64,7 @@ ANIMEQUOTE = (
     "Everything has a beginning and an end. Life is just a cycle of starts and stops. There are ends we don’t desire, but they’re inevitable, we have to face them. It’s what being human is all about. – Jet Black (Cowboy Bebop)",
     "Anything can happen. No one ever thinks it will until it does. What will happen, happens. That’s how the world is. The most important thing is to not let the tragedy defeat you. To believe that you can get through it. – Kyousuke Natsume (Little Busters!)",
     "You’ll only realize that you truly love someone if they already caused you enormous pain. Your enemies can never hurt you the way your loved ones can. It’s the people close to your heart that can give you the most piercing wound. Love is a double-edged sword, it can heal the wound faster or it can sink the blade even deeper. – Himura Kenshin (Rurouni Kenshin)",
-    "It is at the moment of death that humanity has value.” – Archer (Fate Series)"
+    "It is at the moment of death that humanity has value.” – Archer (Fate Series)",
     "A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, he shall obtain a powerful, unmatched heart. – Edward Elric (Fullmetal Alchemist: Brotherhood)",
     "Feel The Rage. The Powerful, Pure Rage Of Not Being Able To Forgive Will Become Your Unswerving Drive To Take Action. - Giyuu Tomioka (Demon Slayer: Kimetsu No Yaiba)",
     "No Matter How Many People You May Lose, You Have No Choice But To Go On Living - No Matter How Devastating The Blows, Maybe. - Tanjiro Kamado (Demon Slayer: Kimetsu No Yaiba)",
@@ -85,7 +86,7 @@ ANIMEQUOTE = (
     "You’ve really got to hold on to what’s important to you. – Kazuya Kujo (Gosick)",
     "The future is always blank. Only your willpower can leave footsteps there. – Satoru Fujinuma (Boku dake ga Inai Machi)",
     " If you’re ever lost in the darkness, follow the compass in your heart. – Kayo Senju (Black Bullet)",
-    "At times, I feel as though the whole world is gray, as though time is standing still. But time never stops. It moves forward endlessly, as surely as bodies buried in the ground will one day become white bones. Listen, it’s always you who stops time. If you stop in fear of the future – you gain nothing, and nothing begins. You spend your life as though already dead. Whether you wish it to or not – time never stops. That’s why there is nothing more interesting than this world. Don’t be too negative. You haven’t become ashes just yet. You have your flesh and blood, and your bones are supporting you. – Sakurako Kujo (Beautiful Bones: Sakurako’s Investigation)"
+    "At times, I feel as though the whole world is gray, as though time is standing still. But time never stops. It moves forward endlessly, as surely as bodies buried in the ground will one day become white bones. Listen, it’s always you who stops time. If you stop in fear of the future – you gain nothing, and nothing begins. You spend your life as though already dead. Whether you wish it to or not – time never stops. That’s why there is nothing more interesting than this world. Don’t be too negative. You haven’t become ashes just yet. You have your flesh and blood, and your bones are supporting you. – Sakurako Kujo (Beautiful Bones: Sakurako’s Investigation)",
     "When I want to do something, I do it, regardless of the rest of the world. When I don’t, I don’t, and that’s that. – Femt (Kekkai Sensen)",
     "If you want to be strong, smile! He who can smile, even when he’s so sad that he wants to die, when it’s so painful that he wants to give it all up and run away, is the one who becomes strong. (Rokka no Yuusha)",
     "If you trust in the possibilities within and try with all your might, the path will show itself to you! – Cardeas Vist (Mobile Suit Gundam UC)",
@@ -99,5 +100,6 @@ ANIMEQUOTE = (
     " If you want to run from your past, fine. But whatever you do, don’t run away from your present or worse, your future. – Kyohei Kadota (Durarara!!)",
     "The same melody repeats itself as the song grows richer and more beautiful. Wouldn’t it be wonderful if we could live seemingly constant lives while experiencing changes bit by bit? – Sayuri Kurata (Kanon)",
     "I never thought about winning making me cool, or losing making me uncool. But you’re right. If anything… Giving up before you even try is kind of uncool. That’s why I want to be someone who’ll fight as many times as it takes, and never give up. That’s got to be way more cooler. – Tachibana Hotaru (Aoharu x Kikanjuu)",
+    "Stand tall and be proud. No matter how weak or unworthy you feel keep your heart burning, grit your teeth and move forward. If you just curl up in a ball and hide, time will pass you by. It won't stop for you while you wallow in your grief. - Kyojuro Rengoku (Demon Slayer:Kimetsu No Yaiba)",
 )
 
