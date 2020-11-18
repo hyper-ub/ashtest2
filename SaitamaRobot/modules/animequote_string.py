@@ -17,7 +17,7 @@ ANIMEQUOTE = (
     " If you feel yourself hitting up against your limit, remember for what cause you clench your fists! Remember why you started down this path, and let that memory carry you beyond your limit. – All Might (My Hero Academia)",
     "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger, as well as kinder. – Gildarts Clive (Fairy Tail)",
     "How can you move forward if you keep regretting the past? – Edward Elric (Fullmetal Alchemist)"
-    "I envy you because you can easily forget your troubles and sadness. – Kanzaki Urumi (Great Teacher Onizuka:GTO)
+    "I envy you because you can easily forget your troubles and sadness. – Kanzaki Urumi (Great Teacher Onizuka:GTO)",
     "Maybe there’s only a dark road up ahead. But you still have to believe and keep going. Believe that the stars will light your path, even a little bit. Come on, let’s go on a journey! – Kaori Miyazono (Shigatsu Wa Kimi No Uso)",
     "Although I’m weak and full of flaws, I will never stop moving forward. No matter who I am, no one other than myself will create my own existence. No matter what others may think or feel, I will still move forward as myself. – Oz Vessalius (Pandora Hearts)",
     "In this world, there’s no such thing as ‘failure’ in the first place. The one who knows the ‘ways to win’ more than anyone is also the one who’s experienced the most ‘mistakes’. In other words… You could say ‘failure’ is equal to ‘success’… Couldn’t you? – Toriko (Toriko)",
