@@ -68,5 +68,30 @@ ANIMEQUOTE = (
     "Feel The Rage. The Powerful, Pure Rage Of Not Being Able To Forgive Will Become Your Unswerving Drive To Take Action. - Giyuu Tomioka (Demon Slayer: Kimetsu No Yaiba)",
     "No Matter How Many People You May Lose, You Have No Choice But To Go On Living - No Matter How Devastating The Blows, Maybe. - Tanjiro Kamado (Demon Slayer: Kimetsu No Yaiba)",
     "It's Not About Going First. It's About The Overall Flow. - Inosuke Harshibra (Demon Slayer: Kimetsu No Yaiba)",
+    "Even if all the confidence and pride you’ve built over the years is blown to pieces by a major failure, even if you’ve had a soul-crushing experience, you still have to open the shop the next day. That’s who chefs are. – Soma Yukihira (Shokugeki no Soma: Ni no Sara)",
+    "Everyone has their own talents, and strong wills that won’t lose to anyone else. – Sakamoto Yuuji (Baka to Test to Shoukanjuu)",
+    "You are too young to worry about failure. In a pinch, just muddle through. The outcome won’t change, so that’s best. – Bang (One Punch Man)",
+    "Do exactly as you like. That is the true meaning of pleasure. Pleasure leads to joy and joy leads to happiness. Your path is now clear, Kirei. So clear there is no longer any need to hesitate. – Gilgamesh (Fate/Zero)",
+    "As long as we are under the same sky, we shouldn’t be sad when we part ways. – Wolfgang Grimmer (Monster)",
+    "If something is possible, carry on as planned. Even if it isn’t possible, do it anyway. – Karasuma Tadaomi (Assassination Classroom)",
+    "Just ’cause you’re a girl, it doesn’t mean you have to wait for a prince to come along on a white horse. You can go out and find Prince Charming yourself. It is up to you to find the right boy. – Sailor Chibi Moon (Sailor Moon)",
+    "If you have the guts to not give up, you can be anything you want to be. We’re living creature that don’t have wings, but still went to the moon. – Kurogane Ryouma (Rakudai Kishi no Cavalry)",
+    "Power is not the only connection you can have. This world is filled with much warmer things. – Minerva Orland (Fairy Tail)",
+    "There are some flowers you only see when you take detours. – Tanaka Saeko (Haikyuu!!)",
+    "I thought that when I grew up, I could reach more and more. The delicious looking fruit beckoning from the highest branch.The beautiful shell hidden in the sand. If I could only stretch out my hand a little more…. But…. As everyone passes through the junctures of their life, they no longer stretch their hand to the sky, or crouch to the earth. Embarrassed, they ignore what they’d desired for so long. Will you reach out and grab me, grown up as I am? – Kou Ichinomiya (Arakawa Under the Bridge)",
+    "I’ll use my flames for a better purpose! – Rin Okumura (Ao no Exorcist)",
+    "Examined from another angle, your faults and weaknesses can be weapons. – Nagisa Shiota (Assassination Classroom 2nd Season)",
+    "I don’t care if no one likes me. I wasn’t created in this world to entertain everyone. – Oreki Houtarou (Hyouka)",
+    "You’ve really got to hold on to what’s important to you. – Kazuya Kujo (Gosick)",
+    "The future is always blank. Only your willpower can leave footsteps there. – Satoru Fujinuma (Boku dake ga Inai Machi)",
+    " If you’re ever lost in the darkness, follow the compass in your heart. – Kayo Senju (Black Bullet)",
+    "At times, I feel as though the whole world is gray, as though time is standing still. But time never stops. It moves forward endlessly, as surely as bodies buried in the ground will one day become white bones. Listen, it’s always you who stops time. If you stop in fear of the future – you gain nothing, and nothing begins. You spend your life as though already dead. Whether you wish it to or not – time never stops. That’s why there is nothing more interesting than this world. Don’t be too negative. You haven’t become ashes just yet. You have your flesh and blood, and your bones are supporting you. – Sakurako Kujo (Beautiful Bones: Sakurako’s Investigation)"
+    "When I want to do something, I do it, regardless of the rest of the world. When I don’t, I don’t, and that’s that. – Femt (Kekkai Sensen)",
+    " If you want to be strong, smile! He who can smile, even when he’s so sad that he wants to die, when it’s so painful that he wants to give it all up and run away, is the one who becomes strong. (Rokka no Yuusha)",
+    "If you trust in the possibilities within and try with all your might, the path will show itself to you! – Cardeas Vist (Mobile Suit Gundam UC)",
+    "If You Can Do One Thing, Hone It To Perfection. Hone It To The Utmost Limit. – Jigoro Agatsuma (Demon Slayer: Kimetsu No Yaiba)
+    "A journey of a thousand miles begins with a single step. Even though each step is small, you never know if you’ll end up achieving your major goal. – Ensei Rou (The Story of Saiunkoku)",
+    "Even if I found happiness, my weakness can’t be discarded. But, even so, I’m sure that we took the right path to move forward. – Adolf Reinhardt (Terra Formars)",
+    "Don’t Ever Give Up. Even If It’s Painful, Even If It’s Agonizing, Don’t Try To Take The Easy Way Out." – Zenitsu Agatsuma (Demon Slayer: Kimetsu No Yaiba)
 )
 
