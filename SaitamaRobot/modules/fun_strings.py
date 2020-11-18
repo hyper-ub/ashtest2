@@ -300,3 +300,15 @@ DECIDE = ("Yes.", "No.", "Maybe.")
 
 TABLE = ("(╯°□°）╯彡 ┻━┻", "I ran out of tables, will order more.",
          "Go do some work instead of flippin tables.")
+
+FUN_TEMPLATES = (
+"Only I Can Call My Dream Stupid!-Roronoa Zoro",
+"When Do You Think People Die? When They Are Shot In The Heart With A Pistol? No. When They Are Ravaged By An Uncurable Disease? No. When They Drink A Soup Made From Poisonous Mushrooms? No. It’s When... They Are Forgotten!-Dr.Hiriluk",
+  
+)
+
+FUN_GIFS = ("CgACAgIAAx0CV8Yu4QADuF-03zgro01jgZO8lYsB4e2blspeAAJkCgACyGmhSfrg6jlIYTVhHgQ",
+"CgACAgUAAx0CV8Yu4QADv1-034TgKXAMtgwvS_c80xfx8aXUAAJbAQACu1UBVnQQGfKfN3iCHgQ")
+
+FUN_STICKERS = ("CAACAgUAAx0CV8Yu4QADw1-03-n5Xs20VaWkIP\_u4DpCh-QLAAKLAQACmlSAVfht8qri5Dh-HgQ",
+"CAACAgQAAx0CV8Yu4QADyF-04DfhPtMAAe2nVeRvu8wX90VfcAACLwEAAj2wWQbUrU3iMSpLkh4E")
