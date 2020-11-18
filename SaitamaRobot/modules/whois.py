@@ -78,17 +78,17 @@ def info(bot: Bot, update: Update, args: List[str]):
     elif user.id in DEV_USERS:
         text += "\nThis person is my dev - I would never do anything against them!."
         
-    elif user.id in SUDO_USERS:
+    elif user.id in DRAGONS:
         text += "\nThis person is one of my sudo users! " \
                     "Nearly as powerful as my owner - so watch it.."
         
-    elif user.id in SUPPORT_USERS:
+    elif user.id in DEMONS:
         text += "\nThis person is one of my support users! " \
                         "Not quite a sudo user, but can still gban you off the map."
         
   
        
-    elif user.id in WHITELIST_USERS:
+    elif user.id in TIGERS:
         text += "\nThis person has been whitelisted! " \
                         "That means I'm not allowed to ban/kick them."
        
