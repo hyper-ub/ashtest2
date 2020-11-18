@@ -93,5 +93,11 @@ ANIMEQUOTE = (
     "A journey of a thousand miles begins with a single step. Even though each step is small, you never know if you’ll end up achieving your major goal. – Ensei Rou (The Story of Saiunkoku)",
     "Even if I found happiness, my weakness can’t be discarded. But, even so, I’m sure that we took the right path to move forward. – Adolf Reinhardt (Terra Formars)",
     "Don’t Ever Give Up. Even If It’s Painful, Even If It’s Agonizing, Don’t Try To Take The Easy Way Out. – Zenitsu Agatsuma (Demon Slayer: Kimetsu No Yaiba)",
+    "The end result is important. But what’s truly important… is the journey to get there. – Hikari Hanazono (Special A)",
+    "God would never put us through all this suffering if he didn’t think we could bear it. – Konno Yuuki (Sword Art Online II)",
+    "Whether it’s disappointing or not depends on the person. Things like uneasiness or indecision are in everyone’s lives. What’s important is to appreciate and grow from every kind of result. If you can grow from them, you can understand that all events are for the purpose of growing and you can appreciate them. – Coco (Toriko)",
+    " If you want to run from your past, fine. But whatever you do, don’t run away from your present or worse, your future. – Kyohei Kadota (Durarara!!)",
+    "The same melody repeats itself as the song grows richer and more beautiful. Wouldn’t it be wonderful if we could live seemingly constant lives while experiencing changes bit by bit? – Sayuri Kurata (Kanon)",
+    "I never thought about winning making me cool, or losing making me uncool. But you’re right. If anything… Giving up before you even try is kind of uncool. That’s why I want to be someone who’ll fight as many times as it takes, and never give up. That’s got to be way more cooler. – Tachibana Hotaru (Aoharu x Kikanjuu)",
 )
 
