@@ -50,8 +50,8 @@ ANIMEQUOTE = (
     "Hard work is worthless for those that don’t believe in themselves. – Naruto Uzumaki (Naruto)",
     "Mistakes are not shackles that halt one from stepping forward. Rather, they are that which sustain and grow one’s heart. – Mavis Vermillion (Fairy Tail)",
     "A place where someone still thinks about you is a place you can call home. – Jiraiya (Naruto)",
-    "“For you, she maybe just someone among the 400 students, but for a student, there’s only one teacher for them.” – Eikichi Onizuka (Great Teacher Onizuka:GTO)
-    "“There’s no gender distinction among the bad.” – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
+    "For you, she maybe just someone among the 400 students, but for a student, there’s only one teacher for them. – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
+    "There’s no gender distinction among the bad. – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "Life comes at a cost. Wouldn’t it be arrogant to die before you’ve repaid that debt?” – Yuuji Kazami (The Fruit of Grisaia / Gurizaia no Kajitsu)",
     "Vision is not what your eyes see, but an image that your brain comprehends. – Touko Aozaki (The Garden of Sinners / Kara no Kyōkai)",
     "Hatred and Sorrow are power. They are yours to control. All you have to do is to turn them into strength and use that strength to move forward. – Sebastian Michaelis (Black Butler / Kuroshitsuji)",
