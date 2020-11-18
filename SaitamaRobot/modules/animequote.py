@@ -1,4 +1,4 @@
-#made by @ironman1821 and @AST _JayPatel1304
+#made by @darkpokefan,@madepranav and @AST _JayPatel1304 
 import html
 import random
 import SaitamaRobot.modules.animequote_string as animequote_string
@@ -8,16 +8,16 @@ from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async
-def animequote(update: Update, context: CallbackContext):
+def aq(update: Update, context: CallbackContext):
     args = context.args
     update.effective_message.reply_text(random.choice(animequote_string.ANIMEQUOTE))
 
 __help__ = """
- • `/animequote`*:* for random animequote
+ • `/aq`*:* for random animequote
 """
 
-ANIMEQUOTE_HANDLER = DisableAbleCommandHandler("animequote", animequote)
+AQ_HANDLER = DisableAbleCommandHandler("aq", aq)
 
-dispatcher.add_handler(ANIMEQUOTE_HANDLER)
+dispatcher.add_handler(AQ_HANDLER)
 
 __mod_name__ = "Animequote"
