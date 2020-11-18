@@ -171,7 +171,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.",
+                    "Oh, The Legendary Trainer Red Enters The Grp Noone Can Defeat him.",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -181,7 +181,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! The Great Trainer Enters In The League!",
+                    "Whoa! The Elite Member Joined the group!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -189,7 +189,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Huh! A Dragon disaster just joined! Stay Alert!",
+                    "Huh! A Pokemon Master Just Joined This Grp! Anyone wanna Challenge?",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -205,14 +205,14 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Oof! A Tiger disaster just joined!",
+                    "Oof! Elite 1 Member Just Arrived!",
                     reply_to_message_id=reply)
                 continue
 
             # Welcome Tigers
             elif new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "Oof! A Wolf disaster just joined!",
+                    "Oof! A Gym Trainer Just Arrived!",
                     reply_to_message_id=reply)
                 continue
 
@@ -237,7 +237,7 @@ def new_member(update: Update, context: CallbackContext):
                         .format(chat.title, chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "Watashi ga kita!", reply_to_message_id=reply)
+                    "He Everyone! I am Ash, I wanted To became a great Pokemon Master. Thanks for adding me here!😉😉", reply_to_message_id=reply)
                 continue
 
             else:
@@ -355,10 +355,10 @@ def new_member(update: Update, context: CallbackContext):
                         })
                     new_join_mem = f"[{escape_markdown(new_mem.first_name)}](tg://user?id={user.id})"
                     message = msg.reply_text(
-                        f"{new_join_mem}, click the button below to prove you're human.\nYou have 120 seconds.",
+                        f"{new_join_mem}, click the button below to prove you're real Pokemon Trainer Not Bot.\nYou have 120 seconds.",
                         reply_markup=InlineKeyboardMarkup([{
                             InlineKeyboardButton(
-                                text="Yes, I'm human.",
+                                text="Yes, I'm Trainer",
                                 callback_data=f"user_join_({new_mem.id})",
                             )
                         }]),
@@ -431,7 +431,7 @@ def check_not_bot(member, chat_id, message_id, context):
 
         try:
             bot.edit_message_text(
-                "*kicks user*\nThey can always rejoin and try.",
+                "*kicks user*\nHe/She Can Always rejoin to Fight.",
                 chat_id=chat_id,
                 message_id=message_id,
             )
@@ -481,13 +481,13 @@ def left_member(update: Update, context: CallbackContext):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oi! Genos! He left..", reply_to_message_id=reply)
+                    "The Great Legendary Trainer Leaves The Grp😭..", reply_to_message_id=reply)
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Hero's Association!",
+                    "The Pokemon Master Leaves the grp!",
                     reply_to_message_id=reply,
                 )
                 return
@@ -596,7 +596,7 @@ def welcome(update: Update, context: CallbackContext):
         if args[0].lower() in ("on", "yes"):
             sql.set_welc_preference(str(chat.id), True)
             update.effective_message.reply_text(
-                "Okay! I'll greet members when they join.")
+                "Okay! I'll greet New Trainers when they join.")
 
         elif args[0].lower() in ("off", "no"):
             sql.set_welc_preference(str(chat.id), False)
@@ -874,7 +874,7 @@ def user_button(update: Update, context: CallbackContext):
         member_dict = VERIFIED_USER_WAITLIST.pop(user.id)
         member_dict["status"] = True
         VERIFIED_USER_WAITLIST.update({user.id: member_dict})
-        query.answer(text="Yeet! You're a human, unmuted!")
+        query.answer(text="Yeet! You're a Trainer, unmuted!")
         bot.restrict_chat_member(
             chat.id,
             user.id,
