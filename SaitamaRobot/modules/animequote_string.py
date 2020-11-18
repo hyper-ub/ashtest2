@@ -30,5 +30,16 @@ ANIMEQUOTE = (
     "Enjoy your life today. Yesterday is gone, and the tomorrow might never come. – Takeshi Yamamoto (Katekyo Hitman Reborn!)",
     "A road is something that you make yourself. – Jotaro Kujo (JoJo’s Bizarre Adventure)",
     "No matter what you’re doing, the most essential thing is to not give up. Fail as many times as it takes. Keep trying persistantly untill you can call yourself ‘avarage’. If you can collect a nice group of avarage-level skills, that’s already above-avarage. You’ve created your own sort of ‘talent’. – Yuuji Kazami",
+    "People’s lives don’t end when they die, it ends when they lose faith. – Itachi Uchiha (Naruto)",
+    "If you don’t like your destiny, don’t accept it. – Naruto Uzumaki (Naruto)"
+    "When you give up, that’s when the game ends.” – Mitsuyoshi Anzai (Slam Dunk)",
+    "All we can do is live until the day we die. Control what we can…and fly free. – Deneil Young (Uchuu Kyoudai or Space Brothers)",
+    "Forgetting is like a wound. The wound may heal, but it has already left a scar. – Monkey D. Luffy (One Piece)",
+    "Giving up kills people. When people reject giving up… they finally win the right to transcend humanity. – Alucard (Hellsing)",
+    "If you don’t share someone’s pain, you can never understand them. – Nagato (Naruto)",
+    "Whatever you lose, you’ll find it again. But what you throw away you’ll never get back. – Himura Kenshin (Rurouni Kenshin)",
+    "We don’t have to know what tomorrow holds! That’s why we can live for everything we’re worth today! – Natsu Dragneel (Fairy Tail)",
+
+ 
 )
 
