@@ -87,9 +87,9 @@ ANIMEQUOTE = (
     " If you’re ever lost in the darkness, follow the compass in your heart. – Kayo Senju (Black Bullet)",
     "At times, I feel as though the whole world is gray, as though time is standing still. But time never stops. It moves forward endlessly, as surely as bodies buried in the ground will one day become white bones. Listen, it’s always you who stops time. If you stop in fear of the future – you gain nothing, and nothing begins. You spend your life as though already dead. Whether you wish it to or not – time never stops. That’s why there is nothing more interesting than this world. Don’t be too negative. You haven’t become ashes just yet. You have your flesh and blood, and your bones are supporting you. – Sakurako Kujo (Beautiful Bones: Sakurako’s Investigation)"
     "When I want to do something, I do it, regardless of the rest of the world. When I don’t, I don’t, and that’s that. – Femt (Kekkai Sensen)",
-    " If you want to be strong, smile! He who can smile, even when he’s so sad that he wants to die, when it’s so painful that he wants to give it all up and run away, is the one who becomes strong. (Rokka no Yuusha)",
+    "If you want to be strong, smile! He who can smile, even when he’s so sad that he wants to die, when it’s so painful that he wants to give it all up and run away, is the one who becomes strong. (Rokka no Yuusha)",
     "If you trust in the possibilities within and try with all your might, the path will show itself to you! – Cardeas Vist (Mobile Suit Gundam UC)",
-    "If You Can Do One Thing, Hone It To Perfection. Hone It To The Utmost Limit. – Jigoro Agatsuma (Demon Slayer: Kimetsu No Yaiba)
+    "If You Can Do One Thing, Hone It To Perfection. Hone It To The Utmost Limit. – Jigoro Agatsuma (Demon Slayer: Kimetsu No Yaiba)",
     "A journey of a thousand miles begins with a single step. Even though each step is small, you never know if you’ll end up achieving your major goal. – Ensei Rou (The Story of Saiunkoku)",
     "Even if I found happiness, my weakness can’t be discarded. But, even so, I’m sure that we took the right path to move forward. – Adolf Reinhardt (Terra Formars)",
     "Don’t Ever Give Up. Even If It’s Painful, Even If It’s Agonizing, Don’t Try To Take The Easy Way Out." – Zenitsu Agatsuma (Demon Slayer: Kimetsu No Yaiba)
