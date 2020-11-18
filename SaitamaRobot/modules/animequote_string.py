@@ -92,6 +92,6 @@ ANIMEQUOTE = (
     "If You Can Do One Thing, Hone It To Perfection. Hone It To The Utmost Limit. – Jigoro Agatsuma (Demon Slayer: Kimetsu No Yaiba)",
     "A journey of a thousand miles begins with a single step. Even though each step is small, you never know if you’ll end up achieving your major goal. – Ensei Rou (The Story of Saiunkoku)",
     "Even if I found happiness, my weakness can’t be discarded. But, even so, I’m sure that we took the right path to move forward. – Adolf Reinhardt (Terra Formars)",
-    "Don’t Ever Give Up. Even If It’s Painful, Even If It’s Agonizing, Don’t Try To Take The Easy Way Out." – Zenitsu Agatsuma (Demon Slayer: Kimetsu No Yaiba)
+    "Don’t Ever Give Up. Even If It’s Painful, Even If It’s Agonizing, Don’t Try To Take The Easy Way Out." – Zenitsu Agatsuma (Demon Slayer: Kimetsu No Yaiba)",
 )
 
