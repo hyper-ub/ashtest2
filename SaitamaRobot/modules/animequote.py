@@ -1,3 +1,4 @@
+#made by @ironman1821 and @AST _JayPatel1304
 import html
 import random
 import SaitamaRobot.modules.animequote_string as animequote_string
