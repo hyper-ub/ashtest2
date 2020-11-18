@@ -49,6 +49,21 @@ ANIMEQUOTE = (
     "A place where someone still thinks about you is a place you can call home. – Jiraiya (Naruto)",
     "Life comes at a cost. Wouldn’t it be arrogant to die before you’ve repaid that debt?” – Yuuji Kazami (The Fruit of Grisaia / Gurizaia no Kajitsu)",
     "Vision is not what your eyes see, but an image that your brain comprehends. – Touko Aozaki (The Garden of Sinners / Kara no Kyōkai)",
- 
+    "Hatred and Sorrow are power. They are yours to control. All you have to do is to turn them into strength and use that strength to move forward. – Sebastian Michaelis (Black Butler / Kuroshitsuji)"
+    "It’s not always possible to do what we want to do, but it’s important to believe in something before you actually do it. – Might Guy (Naruto)"
+    "Don’t beg for things. Do it yourself, or else you won’t get anything. – Renton Thurston (Eureka Seven)",
+    "Life and death are like light and shadow. They’re both always there. But people don’t like thinking about death, so subconsciously, they always look away from it. – Yato (Noragami)",
+    "Moving on doesn’t mean you forget about things. It just means you have to accept what’s happened and continue living. – Erza Scarlet (Fairy Tail)",
+    "If you keep on hiding your true feelings, who is going to be happy? If you are sad, you should say it out loud!” – Haruhi Fujioka (Ouran High School Host Club)"
+    "You can die anytime, but living takes true courage. – Himura Kenshin (Rurouni Kenshin)",
+    "Every journey begins with a single step. We just have to have patience. – Milly Thompson (Trigun)",
+    "If nobody cares to accept you and wants you in this world, accept yourself and you will see that you don’t need them and their selfish ideas. – Alibaba Saluja (Universal Warriors)",
+    "Don’t be upset because of what you can’t do. Do what you do best, live as carefree and optimistically as you can, because some people aren’t able to do that. – Keima Katsuragi (The World God Only Knows)",
+    "If you begin to regret, you’ll dull your future decisions and let others make your choices for you. All that’s left for you then is to die. Nobody can foretell the outcome. Each decision you make holds meaning only by affecting your next decision. – Erwin Smith (Attack on Titan: Shinjeki No Kyojin)",
+    "Everything has a beginning and an end. Life is just a cycle of starts and stops. There are ends we don’t desire, but they’re inevitable, we have to face them. It’s what being human is all about. – Jet Black (Cowboy Bebop)",
+    "Anything can happen. No one ever thinks it will until it does. What will happen, happens. That’s how the world is. The most important thing is to not let the tragedy defeat you. To believe that you can get through it. – Kyousuke Natsume (Little Busters!)",
+    "You’ll only realize that you truly love someone if they already caused you enormous pain. Your enemies can never hurt you the way your loved ones can. It’s the people close to your heart that can give you the most piercing wound. Love is a double-edged sword, it can heal the wound faster or it can sink the blade even deeper. – Himura Kenshin (Rurouni Kenshin)",
+    "It is at the moment of death that humanity has value.” – Archer (Fate Series)"
+    "A lesson without pain is meaningless. That’s because no one can gain without sacrificing something. But by enduring that pain and overcoming it, he shall obtain a powerful, unmatched heart. – Edward Elric (Fullmetal Alchemist: Brotherhood)" 
 )
 
