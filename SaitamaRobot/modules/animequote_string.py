@@ -3,6 +3,7 @@ ANIMEQUOTE = (
     "Living has it own challenges. I’ll give you just one piece of advice. Don’t quit. Yes, when you die, you die. But if you give up, you’re definitely going to die. That, I am sure of. – Brittany (Hai to Gensou no Grimgar)",
     "All I Can Do Is Work Hard! That’s The Story Of My Life! - Tanjiro Kamado (Demon Slayer: Kimetsu no yaiba)",
     "You can’t sit around envying other people’s worlds. You have to go tout and change your own. – Shinichi Chiaki (Nodame Cantabile)",
+    "We cannot go back to the past, no matter how hard we try. No matter how wonderful it was. The past is nothing but the past. – Eikichi Onizuka (Great Teacher Onizuka:GTO)",
     "It’s not like something is going to happen because I believe in it. Sometimes you end up worse off because you believed in something too much. There are times it’s tough to believe in something. – Eureka (Eureka Seven)",
     " I don’t think I’ll learn anything if I don’t try to do something about it on my own. – Chizuru Hishiro (ReLIFE)",
     " A dropout will beat a genius through hard work. – Rock Lee (Naruto)",
