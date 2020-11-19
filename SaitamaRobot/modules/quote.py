@@ -16,7 +16,8 @@ from SaitamaRobot.events import register
 COLORS = [
     "#F07975", "#F49F69", "#F9C84A", "#8CC56E", "#6CC7DC", "#80C1FA", "#BCB3F9", "#E181AC"]
 
-async def process(msg, user, client, reply, replied=None):
+@run_async
+def process(msg, user, client, reply, replied=None):
         if not os.path.isdir("resources"):
             os.mkdir("resources", 0o755)
             urllib.request.urlretrieve(
@@ -389,3 +390,11 @@ async def _(event):
     canvas.save('sticker.webp')
     await event.client.send_file(event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id)
     os.remove('sticker.webp')
+    
+QUOTE_HANDLER = DisableAbleCommandHandler("quote", quote)
+    
+dispatcher.add_handler(QUOTE_HANDLER)
+
+ __handlers__ = [
+    QUOTE_HANDLER
+]
