@@ -12,7 +12,7 @@ from telegram.error import BadRequest
 from telegram import Message, Chat, Update, Bot, MessageEntity
 import SaitamaRobot.modules.helper_funcs.cas_api as cas
 from telegram import ParseMode
-from telegram.ext import CommandHandler, run_async, Filters
+from telegram.ext import CommandHandler,  CallbackContext,  run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
 from SaitamaRobot.modules.helper_funcs.chat_status import user_admin, sudo_plus, is_user_admin
 from SaitamaRobot import dispatcher, DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, BAN_STICKER
@@ -23,7 +23,8 @@ from SaitamaRobot.modules.helper_funcs.filters import CustomFilters
 import SaitamaRobot.modules.sql.users_sql as sql
 
 @run_async
-def whois(update: Update, args: List[str]):
+def whois(update: Update, context: CallbackContext):
+    args = context.args
     message = update.effective_message
     chat = update.effective_chat
     user_id = extract_user(update.effective_message, args)
