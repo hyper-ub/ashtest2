@@ -88,7 +88,7 @@ ANIMEQUOTE = (
     "As long as we are under the same sky, we shouldn’t be sad when we part ways. – Wolfgang Grimmer (Monster)",
     "If something is possible, carry on as planned. Even if it isn’t possible, do it anyway. – Karasuma Tadaomi (Assassination Classroom)",
     "Just ’cause you’re a girl, it doesn’t mean you have to wait for a prince to come along on a white horse. You can go out and find Prince Charming yourself. It is up to you to find the right boy. – Sailor Chibi Moon (Sailor Moon)",
-    "“If you want to grow, just look above you. There are plenty of people perfect to serve as fodder for your growth.” – Kojiro Shinomiya (Food Wars: Shokugeki No Soma)
+    "“If you want to grow, just look above you. There are plenty of people perfect to serve as fodder for your growth.” – Kojiro Shinomiya (Food Wars: Shokugeki No Soma)",
     "If you have the guts to not give up, you can be anything you want to be. We’re living creature that don’t have wings, but still went to the moon. – Kurogane Ryouma (Rakudai Kishi no Cavalry)",
     "Power is not the only connection you can have. This world is filled with much warmer things. – Minerva Orland (Fairy Tail)",
     "There are some flowers you only see when you take detours. – Tanaka Saeko (Haikyuu!!)",
