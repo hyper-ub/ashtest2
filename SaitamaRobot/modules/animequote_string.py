@@ -18,6 +18,7 @@ ANIMEQUOTE = (
     "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger, as well as kinder. – Gildarts Clive (Fairy Tail)",
     "How can you move forward if you keep regretting the past? – Edward Elric (Fullmetal Alchemist)"
     "I envy you because you can easily forget your troubles and sadness. – Kanzaki Urumi (Great Teacher Onizuka:GTO)",
+    "The only thing we're allowed to believe is that we won't regret the choice we made." – Levi Ackerman (Attack On Titan: Shinkeji No Kyojin)",
     "Maybe there’s only a dark road up ahead. But you still have to believe and keep going. Believe that the stars will light your path, even a little bit. Come on, let’s go on a journey! – Kaori Miyazono (Shigatsu Wa Kimi No Uso)",
     "Although I’m weak and full of flaws, I will never stop moving forward. No matter who I am, no one other than myself will create my own existence. No matter what others may think or feel, I will still move forward as myself. – Oz Vessalius (Pandora Hearts)",
     "In this world, there’s no such thing as ‘failure’ in the first place. The one who knows the ‘ways to win’ more than anyone is also the one who’s experienced the most ‘mistakes’. In other words… You could say ‘failure’ is equal to ‘success’… Couldn’t you? – Toriko (Toriko)",
@@ -25,6 +26,7 @@ ANIMEQUOTE = (
     " Life is like a tube of toothpaste. When you’ve used all the toothpaste down to the last squeeze, that’s when you’ve really lived. Live with all your might, and struggle as long as you have life. – Mion Sonozaki (Higurashi no Naku Koro ni)",
     " I won’t be defeated because I know how awful it feels to lose after doing my very best! – Sho Kazamatsuri (Whistle!)",
     "Stop pouting! You learned something valuable. Remember the lesson, not the disappointment. – Holo (Spice & Wolf)",
+    "“I don’t have time to worry if it’s right or wrong, you can’t hope for a horror story with a happy ending.” – Eren Jaeger (Attack On Titan: Shinkeji No Kyojin)",
     "The ones who accomplish something are the fools who keep pressing onward. The ones who accomplish nothing are the wise who cease advancing. – Celica Arfonia (Rokudenashi Majutsu Koushi to Akashic Records)",
     "Just walk the path you believe in. And don’t forget, you’re the main character of your own life story! – Glenn Radars (Rokudenashi Majutsu Koushi to Akashic Records)",
     "The only one who can decide your worth.. is you. If you want to earn something, you need to reach out for it. Pro-athletes give up their teenage years to train. Business owners put up collateral to borrow money. That’s how it always works. To make your ambitions come true, you have to take risks. The larger the ambition the greater the risk. That might involve time or enough work to affect your lifespan… So make your choice. Live in peace as a wannabe or risk losing it all to reach the very top. You’re the one who needs to decide. – Jabami Yumeko (Kakegurui)",
