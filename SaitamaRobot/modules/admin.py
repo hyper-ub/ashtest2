@@ -53,12 +53,12 @@ def promote(update: Update, context: CallbackContext) -> str:
 
     if user_member.status == 'administrator' or user_member.status == 'creator':
         message.reply_text(
-            "How am I meant to promote someone that's already an admin?")
+            "Haha Gary Nice Joke But It's not Funny to promote the Legendary Trainer Who Created this Battle Field! Lmao!")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "I can't promote myself! Get an admin to do it for me.")
+            "Sorry But I can't Promote Myself ask admin or Grp creater to do that.")
         return
 
     # set same perms as bot - bot can't assign higher perms than itself!
@@ -79,14 +79,14 @@ def promote(update: Update, context: CallbackContext) -> str:
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
             message.reply_text(
-                "I can't promote someone who isn't in the group.")
+                "Hey Brock pls open ur eyes u trying to promoting someone who is not here only😑😑..")
         else:
             message.reply_text("An error occured while promoting.")
         return
 
     bot.sendMessage(
         chat.id,
-        f"Sucessfully promoted <b>{user_member.user.first_name or user_id}</b>. Now Give Party🥳🥳!",
+        f"Sucessfully promoted <b>{user_member.user.first_name or user_id}</b>. Now Gib Party🎉!",
         parse_mode=ParseMode.HTML)
 
     log_message = (
@@ -127,16 +127,16 @@ def demote(update: Update, context: CallbackContext) -> str:
 
     if user_member.status == 'creator':
         message.reply_text(
-            "This person CREATED the chat, how would I demote them?")
+            "This person is a Lengendary Trainer and u want me to demote him. It's sound's like fool😑.")
         return
 
     if not user_member.status == 'administrator':
-        message.reply_text("Can't demote what wasn't promoted!")
+        message.reply_text("What Happened Proffeser Oak This person is not admin only so Why are you trying to demote him. Sir take rest!")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "I can't demote myself! Get an admin to do it for me.")
+            "Sorry But I can't demote myself! I guess I need more training😔😔. If u wanna demote me tell to grp owner or admin who promoted me to do..")
         return
 
     try:
@@ -154,7 +154,7 @@ def demote(update: Update, context: CallbackContext) -> str:
 
         bot.sendMessage(
             chat.id,
-            f"Sucessfully demoted <b>{user_member.user.first_name or user_id}</b>!",
+            f"Sucessfully demoted <b>{user_member.user.first_name or user_id} Now go to Training if u want Promotion again</b>!",
             parse_mode=ParseMode.HTML)
 
         log_message = (
@@ -198,12 +198,12 @@ def set_title(update: Update, context: CallbackContext):
 
     if user_member.status == 'creator':
         message.reply_text(
-            "This person CREATED the chat, how can i set custom title for him?")
+            "This is a Legendary Trainer and I Dosen't had any right to set title for him sorry!")
         return
 
     if not user_member.status == 'administrator':
         message.reply_text(
-            "Can't set title for non-admins!\nPromote them first to set custom title!"
+            "Hey Tracy Stop Drinking. This person is not admin and u trying to set custom title for them are u dumb. If u want to set then!\nPromote them first to set custom title!"
         )
         return
 
@@ -378,13 +378,13 @@ def adminlist(update, context):
         #if user.username:
         #    name = escape_markdown("@" + user.username)
         if status == "creator":
-            text += "\n 👑 Creator:"
+            text += "\n 🏆 Pokemon League Champion 🏆 👑 (Group Creater 👑):"
             text += "\n` • `{}\n".format(name)
 
             if custom_title:
                 text += f"┗━ `{escape_markdown(custom_title)}`\n"
 
-    text += "\n🔱 Admins:"
+    text += "\n ☠️Elites☠️ and 😎Qualifying Members😎 (Admins 🎉):"
 
     custom_admin_list = {}
     normal_admin_list = []
@@ -427,7 +427,7 @@ def adminlist(update, context):
             text += "\n` • `{}".format(admin)
         text += "\n"
 
-    text += "\n🤖 Bots:"
+    text += "\n🤖 League Bots🤖:"
     for each_bot in bot_admin_list:
         text += "\n` • `{}".format(each_bot)
 
