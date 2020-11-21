@@ -191,5 +191,5 @@ Do you know that you can search an image with a link too? /reverse picturelink <
 __mod_name__ = "Reverse"
 
 __handlers__ = [
-    PLET_HANDLER
+    REVERSE_HANDLER
 ]
