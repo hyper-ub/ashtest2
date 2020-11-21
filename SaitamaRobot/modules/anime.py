@@ -22,7 +22,7 @@ sequel_btn = "Sequel ➡️"
 close_btn = "Close ❌"
 
 
-def shorten(description, info='anilist.co'):
+def shorten(description, info='myanimelist.net):
     msg = ""
     if len(description) > 700:
         description = description[0:500] + '....'
