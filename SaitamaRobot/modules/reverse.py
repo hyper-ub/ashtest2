@@ -180,7 +180,7 @@ def scam(imgspage, lim):
 
     return imglinks
         
-PLET_HANDLER = DisableAbleCommandHandler("plet", plet)
+REVERSE_HANDLER = DisableAbleCommandHandler("reverse", reverse)
 
 dispatcher.add_handler(REVERSE_HANDLER)
 
