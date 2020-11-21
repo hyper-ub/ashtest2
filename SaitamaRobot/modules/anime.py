@@ -158,7 +158,7 @@ query ($id: Int,$search: String) {
     }
 """
 
-url = 'https://graphql.anilist.co'
+url = 'https://graphql.myanimelist.net'
 
 
 @run_async
