@@ -22,7 +22,7 @@ from SaitamaRobot.modules.log_channel import gloggable, loggable
 @loggable
 
 
-async def rm_deletedacc(show):
+async def zombies(show):
     """ For /zombies command, list all the ghost/deleted/zombie accounts in a chat. """
 
     con = show.pattern_match.group(1).lower()
