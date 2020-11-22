@@ -91,7 +91,14 @@ async def rm_deletedacc(show):
         )
 
 
-@friday.on(sudo_cmd(pattern="zombies ?(.*)", allow_sudo=True))
+@Ash.on(DRAGONS(pattern="zombies ?(.*)", allow_sudo=True))
+
+@run_async
+@connection_status
+@bot_admin
+@user_admin
+@loggable
+
 async def rm_deletedacc(show):
     if show.fwd_from:
         return
