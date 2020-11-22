@@ -194,3 +194,5 @@ CMD_HELP.update(
 "
     }
 )
+
+ZOMBIES_HANDLER = CommandHandler("Zombies", Zombies)
