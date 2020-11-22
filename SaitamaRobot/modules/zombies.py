@@ -16,15 +16,6 @@ from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
 from SaitamaRobot.modules.log_channel import gloggable, loggable
 
 
-@run_async
-@connection_status
-@bot_admin
-@can_restrict
-@user_admin
-@user_can_ban
-@loggable
-
-
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
     view_messages=True,
@@ -85,27 +76,11 @@ async def rm_deletedacc(show):
             \nclean them by using `.zombies clean`"
         await show.edit(del_status)
         return
-@run_async
-@connection_status
-@bot_admin
-@can_restrict
-@user_admin
-@user_can_ban
-@loggable
-
 
     # Here laying the sanity check
     chat = await show.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
-@run_async
-@connection_status
-@bot_admin
-@can_restrict
-@user_admin
-@user_can_ban
-@loggable
-
 
     # Well
     if not admin and not creator:
@@ -137,14 +112,6 @@ async def rm_deletedacc(show):
     if del_a > 0:
         del_status = f"Cleaned **{del_u}** deleted account(s) \
         \n**{del_a}** deleted admin accounts are not removed"
-@run_async
-@connection_status
-@bot_admin
-@can_restrict
-@user_admin
-@user_can_ban
-@loggable
-
 
     await show.edit(del_status)
     await sleep(2)
