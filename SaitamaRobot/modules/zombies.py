@@ -13,6 +13,8 @@ from SaitamaRobot.modules.helper_funcs.chat_status import (bot_admin, connection
 from SaitamaRobot.modules.helper_funcs.extraction import extract_user_and_text
 from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
 from SaitamaRobot.modules.log_channel import gloggable, loggable
+from telegram.ext import (CallbackContext, CommandHandler, Filters,
+                          MessageHandler, run_async)
 
 
 @run_async
@@ -22,7 +24,7 @@ from SaitamaRobot.modules.log_channel import gloggable, loggable
 @loggable
 
 
-async def zombies(show):
+async def zombies(show, update: Update, context: CallbackContext):
     """ For /zombies command, list all the ghost/deleted/zombie accounts in a chat. """
 
     con = show.pattern_match.group(1).lower()
