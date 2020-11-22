@@ -163,19 +163,15 @@ async def rm_deletedacc(show):
     await avengers3.delete()
 
 
-CMD_HELP.update(
-    {
-        "zombies": "/zombies\
-\nUsage: Searches for deleted accounts in a group. Use .delusers clean to remove deleted accounts from the group.\
-"
-    }
-)
-
-ZOMBIES_HANDLER = CommandHandler("Zombies", Zombies)
+ZOMBIES_HANDLER = CommandHandler("zombies", zombies)
 
 dispatcher.add_handler(ZOMBIES_HANDLER)
 
+__help__ = """
+   /zombies :- remove deleted accounts
+"""
 __mod_name__ = "Zombies"
+
 __handlers__ = [
     ZOMBIES_HANDLER
 ]
