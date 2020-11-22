@@ -196,3 +196,4 @@ CMD_HELP.update(
 )
 
 ZOMBIES_HANDLER = CommandHandler("Zombies", Zombies)
+dispatcher.add_handler(ZOMBIES_HANDLER)
