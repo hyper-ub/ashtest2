@@ -18,7 +18,6 @@ from SaitamaRobot.modules.log_channel import gloggable, loggable
 @run_async
 @connection_status
 @bot_admin
-@can_restrict
 @user_admin
 @user_can_ban
 @loggable
