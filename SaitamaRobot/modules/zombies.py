@@ -196,4 +196,10 @@ CMD_HELP.update(
 )
 
 ZOMBIES_HANDLER = CommandHandler("Zombies", Zombies)
+
 dispatcher.add_handler(ZOMBIES_HANDLER)
+
+__mod_name__ = "Zombies"
+__handlers__ = [
+    ZOMBIES_HANDLER
+]
