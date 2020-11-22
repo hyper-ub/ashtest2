@@ -1,18 +1,29 @@
-import asyncio
-from asyncio import sleep
+import html
 
-from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
-from telethon.tl.functions.channels import EditBannedRequest
-from telethon.tl.types import ChatBannedRights
+from telegram import ParseMode, Update
+from telegram.error import BadRequest
+from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
+from telegram.utils.helpers import mention_html
 
-from userbot import CMD_HELP
-from userbot.utils import friday_on_cmd, sudo_cmd
+from SaitamaRobot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
+                          WOLVES, dispatcher)
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.chat_status import (
+    bot_admin, can_restrict, connection_status, is_user_admin,
+    is_user_ban_protected, is_user_in_chat, user_admin, user_can_ban)
+from SaitamaRobot.modules.helper_funcs.extraction import extract_user_and_text
+from SaitamaRobot.modules.helper_funcs.string_handling import extract_time
+from SaitamaRobot.modules.log_channel import gloggable, loggable
 
-#
-BOTLOG = True
-BOTLOG_CHATID = Config.PRIVATE_GROUP_ID
 
-# =================== CONSTANT ===================
+@run_async
+@connection_status
+@bot_admin
+@can_restrict
+@user_admin
+@user_can_ban
+@loggable
+
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
@@ -39,9 +50,8 @@ UNBAN_RIGHTS = ChatBannedRights(
 )
 
 
-@friday.on(friday_on_cmd(pattern=f"zombies ?(.*)"))
 async def rm_deletedacc(show):
-    """ For .zombies command, list all the ghost/deleted/zombie accounts in a chat. """
+    """ For /zombies command, list all the ghost/deleted/zombie accounts in a chat. """
 
     con = show.pattern_match.group(1).lower()
     del_u = 0
@@ -179,7 +189,7 @@ async def rm_deletedacc(show):
 
 CMD_HELP.update(
     {
-        "zombies": ".zombies\
+        "zombies": "/zombies\
 \nUsage: Searches for deleted accounts in a group. Use .delusers clean to remove deleted accounts from the group.\
 "
     }
