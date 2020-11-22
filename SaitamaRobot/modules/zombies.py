@@ -90,8 +90,6 @@ async def rm_deletedacc(show):
             \nCHAT: {show.chat.title}(`{show.chat_id}`)",
         )
 
-
-
 @run_async
 @connection_status
 @bot_admin
