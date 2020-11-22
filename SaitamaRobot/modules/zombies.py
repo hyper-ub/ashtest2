@@ -91,7 +91,6 @@ async def rm_deletedacc(show):
         )
 
 
-@Ash.on(DRAGONS(pattern="zombies ?(.*)", allow_sudo=True))
 
 @run_async
 @connection_status
