@@ -1,4 +1,7 @@
 import html
+from PIL import Image
+import requests
+import os
 import random
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
