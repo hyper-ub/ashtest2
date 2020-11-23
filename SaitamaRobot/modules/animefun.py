@@ -14,7 +14,7 @@ def why(update: Update, context: CallbackContext):
     msg = update.effective_message
     why = requests.get("https://nekos.life/api/v2/why").json()
     why = why.get("why")  
-    msg.reply_photo(why)
+    msg.reply_text(why)
 
 WHY_HANDLER = DisableAbleCommandHandler("why", why)
 
