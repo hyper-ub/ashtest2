@@ -52,6 +52,7 @@ ANIMEQUOTE = (
     "Being weak is nothing to be ashamed of… Staying weak is !! – Fuegoleon Vermillion (Black Clover)",
     "Reject common sense to make the impossible possible. – Simon (Tengen Toppa Gurren Lagann)",
     "“This is just my opinion but… I feel that those who recognize one right way will never go beyond and reach truly amazing things. But more importantly… the journey is no fun if you know where you are going.” -Soma Yukihira (Food Wars: Shokugeki No Soma)",
+    "Being alone is better than being with the wrong person. – L (Death Note)",
     "If you really want to be strong… Stop caring about what your surrounding thinks of you! – Saitama (One Punch Man)",
     "Who decides limits? And based on what? You said you worked hard? Well, maybe you need to work a little harder. Is that really the limit of your strength? Could the you of tomorrow beat you today? Instead of giving in, move forward. – Saitama (One Punch Man)",
     "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own. – Jiraiya (Naruto)",
