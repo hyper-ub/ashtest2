@@ -57,3 +57,11 @@ async def _(event):
         output_str += "[{}]({})\n{}\n".format(text, url, last)       
     await event.reply("{}".format(output_str), link_preview=False, parse_mode='Markdown')
 
+GOOGLE_HANDLER = DisableAbleCommandHandler(["google"], google)
+
+dispatcher.add_handler(GOOGLE_HANDLER)
+
+__mod_name__ = "Google"
+__command_list__ = ["google"]
+__handlers__ = [GOOGLE_HANDLER]
+
