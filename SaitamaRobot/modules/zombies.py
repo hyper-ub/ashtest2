@@ -24,22 +24,29 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
 @loggable
 
 
-def zombies(update: Update, context: CallbackContext):
+async def zombies(show, update: Update, context: CallbackContext):
     bot = context.bot
     args = context.args
     """ For /zombies command, list all the ghost/deleted/zombie accounts in a chat. """
     bot = context.bot
     args = context.args
 
-    if not user_id:
-        message.reply_text("No Deleted Accounts Found.")
-        return log_message
+    con = show.pattern_match.group(1).lower()	    
+    del_u = 0	      
+    del_status = "`No deleted accounts found, Group is clean`"	 
+
+    if con != "clean":	
+        await show.edit("`Searching for ghost/deleted/zombie accounts...`")	
+        async for user in show.client.iter_participants(show.chat_id):
 
             if user.deleted:
                 del_u += 1
                 await sleep(1)
-        message.reply_text("Deleted Accounts Found.")
-        return log_message
+        if del_u > 0:	        
+            del_status = f"`Found` **{del_u}** ghost/deleted/zombie account(s) in this group,\
+            \nclean them by using `.zombies clean`"	
+        await show.edit(del_status)	
+        return
 
 
     # Here laying the sanity check
