@@ -4,10 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from SaitamaRobot.events import register
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from telegram import ParseMode, Update
-from telegram.ext import CallbackContext, run_async
+from SaitamaRobot import client
 import sys
 import shutil
 from re import findall
