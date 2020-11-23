@@ -24,7 +24,7 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
 @loggable
 
 
-def zombies(update: Update, context: CallbackContext): str:
+def zombies(update: Update, context: CallbackContext):
     bot = context.bot
     args = context.args
     """ For /zombies command, list all the ghost/deleted/zombie accounts in a chat. """
