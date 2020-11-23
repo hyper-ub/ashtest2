@@ -6,7 +6,7 @@ requests
 sqlalchemy
 python-telegram-bot==12.8
 psycopg2-binary
-bing_image_downloader
+html2text
 feedparser
 pynewtonmath
 spongemock
