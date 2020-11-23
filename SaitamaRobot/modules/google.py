@@ -14,7 +14,7 @@ from telethon.tl import types
 from telethon.tl.types import *
 import html2text
 
-@run_async
+
 async def is_register_admin(chat, user):
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
 
@@ -41,7 +41,7 @@ async def _(event):
         return
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-       await event.reply("You are not admin..>_<You can't use this command.. But you can use in my pm")
+       await event.reply("You are not admin.. You can't use this command.. But you can use in my pm:-):-)")
        return
     # SHOW_DESCRIPTION = False
     input_str = event.pattern_match.group(1) # + " -inurl:(htm|html|php|pls|txt) intitle:index.of \"last modified\" (mkv|mp4|avi|epub|pdf|mp3)"
@@ -56,12 +56,3 @@ async def _(event):
         last = html2text.html2text(description)
         output_str += "[{}]({})\n{}\n".format(text, url, last)       
     await event.reply("{}".format(output_str), link_preview=False, parse_mode='Markdown')
-
-GOOGLE_HANDLER = DisableAbleCommandHandler(["google"], google)
-
-dispatcher.add_handler(GOOGLE_HANDLER)
-
-__mod_name__ = "Google"
-__command_list__ = ["google"]
-__handlers__ = [GOOGLE_HANDLER]
-
