@@ -10,12 +10,12 @@ from telegram.ext import CallbackContext, run_async
 
 
 @run_async
-def animewall(update: Update, context: CallbackContext):
+def why(update: Update, context: CallbackContext):
     msg = update.effective_message
-    anime = requests.get("https://api.computerfreaker.cf/v1/anime").json()
-    url = anime.get("url")  
-    msg.reply_photo(url)
+    why = requests.get("https://nekos.life/api/v2/why").json()
+    why = why.get("why")  
+    msg.reply_photo(why)
 
-ANIMEWALL_HANDLER = DisableAbleCommandHandler("animewall", animewall)
+WHY_HANDLER = DisableAbleCommandHandler("why", why)
 
-dispatcher.add_handler(ANIMEWALL_HANDLER)
+dispatcher.add_handler(WHY_HANDLER)
