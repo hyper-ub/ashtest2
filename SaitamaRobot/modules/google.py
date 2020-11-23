@@ -8,7 +8,6 @@ from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
-from search_engine_parser import GoogleSearch
 import sys
 import shutil
 from re import findall
@@ -16,7 +15,7 @@ from telethon import *
 from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
-
+import html2text
 
 @run_async
 async def is_register_admin(chat, user):
