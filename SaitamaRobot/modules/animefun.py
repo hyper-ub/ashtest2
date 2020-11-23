@@ -16,6 +16,16 @@ def why(update: Update, context: CallbackContext):
     why = why.get("why")  
     msg.reply_text(why)
 
-WHY_HANDLER = DisableAbleCommandHandler("why", why)
 
-dispatcher.add_handler(WHY_HANDLER)
+@run_async
+def fact(update: Update, context: CallbackContext):
+    msg = update.effective_message
+    fact = requests.get("https://nekos.life/api/v2/fact").json()
+    fact = why.get("fact")  
+    msg.reply_text(fact)
+
+
+WHY_HANDLER = DisableAbleCommandHandler("why", why)
+FACT_HANDLER = DisableAbleCommandHandler("fact", fact)
+
+dispatcher.add_handler(FACT_HANDLER)
