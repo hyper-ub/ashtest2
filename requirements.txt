@@ -1,6 +1,7 @@
 future
 emoji
 lxml
+nekos.py
 beautifulsoup4
 requests
 sqlalchemy
