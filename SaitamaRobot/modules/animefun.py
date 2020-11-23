@@ -28,4 +28,5 @@ def fact(update: Update, context: CallbackContext):
 WHY_HANDLER = DisableAbleCommandHandler("why", why)
 FACT_HANDLER = DisableAbleCommandHandler("fact", fact)
 
+dispatcher.add_handler(WHY_HANDLER)
 dispatcher.add_handler(FACT_HANDLER)
