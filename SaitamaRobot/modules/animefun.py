@@ -21,7 +21,7 @@ def why(update: Update, context: CallbackContext):
 def fact(update: Update, context: CallbackContext):
     msg = update.effective_message
     fact = requests.get("https://nekos.life/api/v2/fact").json()
-    fact = why.get("fact")  
+    fact = fact.get("fact")  
     msg.reply_text(fact)
 
 
