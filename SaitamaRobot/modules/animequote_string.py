@@ -3,7 +3,7 @@ ANIMEQUOTE = (
     "Excuse me but are you by any chance the oddball in your family?– Ash Ketchum",
     "The world isn't perfect. But it's there for us, doing the best it can....that's what makes it so damn beautiful.~ Roy Mustang (Full Metal Alchemist)",
     "To know sorrow is not terrifying. What is terrifying is to know you can't go back to happiness you could have.~ Matsumoto Rangiku (Bleach)",
-    "Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But of course it will! Whoever wins this war becomes justice!~ Don Quixote Doflamingo (One Piece)
+    "Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But of course it will! Whoever wins this war becomes justice!~ Don Quixote Doflamingo (One Piece)",
     "Living has it own challenges. I’ll give you just one piece of advice. Don’t quit. Yes, when you die, you die. But if you give up, you’re definitely going to die. That, I am sure of. – Brittany (Hai to Gensou no Grimgar)",
     "All I Can Do Is Work Hard! That’s The Story Of My Life! - Tanjiro Kamado (Demon Slayer: Kimetsu no yaiba)",
     "You can’t sit around envying other people’s worlds. You have to go tout and change your own. – Shinichi Chiaki (Nodame Cantabile)",
