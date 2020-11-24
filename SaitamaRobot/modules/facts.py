@@ -1,5 +1,9 @@
 import html
 import random
+import requests
+import os
+import random
+import nekos
 from SaitamaRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
