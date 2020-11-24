@@ -146,6 +146,7 @@ __help__ = """
 NEKO_HANDLER = DisableAbleCommandHandler("neko", neko)
 BAKA_HANDLER = DisableAbleCommandHandler("baka", baka)
 SMUG_HANDLER = DisableAbleCommandHandler("smug", smug)
+HOLO_HANDLER = DisableAbleCommandHandler("holo", holo)
 POKE_HANDLER = DisableAbleCommandHandler("poke", poke)
 FEED_HANDLER = DisableAbleCommandHandler("feed", feed)
 TICKLE_HANDLER = DisableAbleCommandHandler("tickle", tickle)
@@ -175,7 +176,7 @@ dispatcher.add_handler(WHY_HANDLER)
 
 __handlers__ = [
     NEKO_HANDLER, BAKA_HANDLER, SMUG_HANDLER, KISS_HANDLER, HOLO_HANDLER, POKE_HANDLER, FEED_HANDLER,
-TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER,
+TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER, HOLO_HANDLER,
 ]
 
 __mod_name__ = "ANIMEFUN"
