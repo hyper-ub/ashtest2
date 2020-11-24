@@ -13,7 +13,7 @@ from PIL import Image
 import os
 
 from telegram import Update, Bot, ParseMode
-from telegram.ext import run_async
+from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import escape_markdown
 
 from SaitamaRobot import dispatcher
