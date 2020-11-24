@@ -25,7 +25,7 @@ class Config(object):
     EVENT_LOGS = -1001190806654  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://zlnssgij:ihFf7hoj4tdizQOj9YabAjhnQ8ASkiCK@raja.db.elephantsql.com:5432/zlnssgij'  # needed for any database modules
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = False
