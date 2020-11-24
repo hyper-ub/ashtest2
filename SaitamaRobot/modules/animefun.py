@@ -2,7 +2,6 @@
 
 import requests
 import html
-import BulmaRobot.modules.animequotesstring as animequotesstring
 import random
 import re
 import rapidjson as json
@@ -17,9 +16,9 @@ from telegram import Update, Bot, ParseMode
 from telegram.ext import run_async
 from telegram.utils.helpers import escape_markdown
 
-from BulmaRobot import dispatcher
-from BulmaRobot.modules.disable import DisableAbleCommandHandler
-from BulmaRobot.modules.helper_funcs.extraction import extract_user
+from SaitamaRobot import dispatcher
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 
 
 @run_async
