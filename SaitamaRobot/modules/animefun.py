@@ -23,87 +23,82 @@ from BulmaRobot.modules.helper_funcs.extraction import extract_user
 
 
 @run_async
-def nep(bot: Bot, update: Update):
+def neko(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "neko"
     msg.reply_photo(nekos.img(target))
 
 @run_async
-def baka(bot: Bot, update: Update):
+def baka(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "baka"
     msg.reply_video(nekos.img(target))
 
 @run_async
-def smug(bot: Bot, update: Update):
+def smug(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "smug"
     msg.reply_video(nekos.img(target))
 
-@run_async
-def kiss(bot: Bot, update: Update):
-    msg = update.effective_message
-    target = "kiss"
-    msg.reply_video(nekos.img(target))
 
 @run_async
-def holo(bot: Bot, update: Update):
+def holo(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "holo"
     msg.reply_photo(nekos.img(target))
 
 @run_async
-def poke(bot: Bot, update: Update):
+def poke(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "poke"
     msg.reply_video(nekos.img(target))
 
 @run_async
-def feed(bot: Bot, update: Update):
+def feed(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "feed"
     msg.reply_video(nekos.img(target))
 
 @run_async
-def tickle(bot: Bot, update: Update):
+def tickle(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "tickle"
     msg.reply_video(nekos.img(target))
 
 @run_async
-def nepgif(bot: Bot, update: Update):
+def nekogif(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "ngif"
     msg.reply_video(nekos.img(target))
 
 @run_async
-def wallpaper(bot: Bot, update: Update):
+def wallpaper(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "wallpaper"
     msg.reply_photo(nekos.img(target))
 
 @run_async
-def slap(bot: Bot, update: Update):
+def slap(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "slap"
     msg.reply_photo(nekos.img(target))
     
 @run_async
-def patgif(bot: Bot, update: Update):
+def patgif(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "pat"
     msg.reply_video(nekos.img(target))
 
 
 @run_async
-def goose(bot: Bot, update: Update):
+def goose(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "goose"
     msg.reply_photo(nekos.img(target))
 
 
 @run_async
-def why(bot: Bot, update: Update):
+def why(update: Update, context: CallbackContext):
     msg = update.effective_message
     why = requests.get("https://nekos.life/api/v2/why").json()
     why = why.get("why")
@@ -111,7 +106,7 @@ def why(bot: Bot, update: Update):
     
 
 @run_async
-def pat(bot: Bot, update: Update):
+def pat(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     msg = str(update.message.text)
     try:
@@ -130,21 +125,16 @@ def pat(bot: Bot, update: Update):
     else:
         bot.send_photo(chat_id, f'https://headp.at/pats/{urllib.parse.quote(random.choice(pats))}', reply_to_message_id=msg_id)
         
-@run_async
-def animequotes(bot: Bot, update: Update):
-    update.effective_message.reply_text(random.choice(animequotesstring.ANIMEQUOTES))
-   
+
 __help__ = """
- - /animequotes : for random Anime qoutes.
- - /nep : for random Anime Image.
+ - /neko : for random Anime Image.
  - /baka: for random Baka Shout GIFs.
  - /smug: for random Smug GIFs.
- - /kiss: for random Anime Kiss GIFs.
  - /holo: for random Anime holo GIFs.
  - /poke: for random Anime poke GIFs
  - /feed: for random Anime feeding GIFs.
  - /tickle: for random Anime tickle GIFs.
- - /nepgif: for random Anime GIFs.
+ - /nekogif: for random Anime GIFs.
  - /wallpaper : for random Anime Wallpaper.
  - /slap : for random Anime slap gif.
  - /patgif : for random Anime pat gif.
@@ -154,44 +144,39 @@ __help__ = """
 """
     
 
-NEP_HANDLER = DisableAbleCommandHandler("nep", nep)
+NEKO_HANDLER = DisableAbleCommandHandler("neko", neko)
 BAKA_HANDLER = DisableAbleCommandHandler("baka", baka)
 SMUG_HANDLER = DisableAbleCommandHandler("smug", smug)
-KISS_HANDLER = DisableAbleCommandHandler("kiss", kiss)
-HOLO_HANDLER = DisableAbleCommandHandler("holo", holo)
 POKE_HANDLER = DisableAbleCommandHandler("poke", poke)
 FEED_HANDLER = DisableAbleCommandHandler("feed", feed)
 TICKLE_HANDLER = DisableAbleCommandHandler("tickle", tickle)
-NEPGIF_HANDLER = DisableAbleCommandHandler("nepgif", nepgif)
+NEKOGIF_HANDLER = DisableAbleCommandHandler("nekogif", nekogif)
 WALLPAPER_HANDLER = DisableAbleCommandHandler("wallpaper", wallpaper)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap)
 PATGIF_HANDLER = DisableAbleCommandHandler("patgif", patgif)
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat, admin_ok=True)
-ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("animequotes", animequotes)
 PATGIF_HANDLER = DisableAbleCommandHandler("patgif", patgif)
 GOOSE_HANDLER = DisableAbleCommandHandler("goose", goose)
 WHY_HANDLER = DisableAbleCommandHandler("why", why)
 
-dispatcher.add_handler(NEP_HANDLER)
+dispatcher.add_handler(NEKO_HANDLER)
 dispatcher.add_handler(BAKA_HANDLER)
 dispatcher.add_handler(SMUG_HANDLER)
-dispatcher.add_handler(KISS_HANDLER)
 dispatcher.add_handler(HOLO_HANDLER) 
 dispatcher.add_handler(POKE_HANDLER)
 dispatcher.add_handler(FEED_HANDLER)
 dispatcher.add_handler(TICKLE_HANDLER)
-dispatcher.add_handler(NEPGIF_HANDLER)
+dispatcher.add_handler(NEKOGIF_HANDLER)
 dispatcher.add_handler(WALLPAPER_HANDLER)
 dispatcher.add_handler(SLAP_HANDLER)
 dispatcher.add_handler(PATGIF_HANDLER)
 dispatcher.add_handler(PAT_HANDLER)
 dispatcher.add_handler(GOOSE_HANDLER)
-dispatcher.add_handler(ANIMEQUOTES_HANDLER)
 dispatcher.add_handler(WHY_HANDLER)
 
 __handlers__ = [
-    NEP_HANDLER, BAKA_HANDLER, SMUG_HANDLER, KISS_HANDLER, HOLO_HANDLER, POKE_HANDLER, FEED_HANDLER,
-TICKLE_HANDLER, NEPGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER,
+    NEKO_HANDLER, BAKA_HANDLER, SMUG_HANDLER, KISS_HANDLER, HOLO_HANDLER, POKE_HANDLER, FEED_HANDLER,
+TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER,
 ]
 
-__mod_name__ = "NEPTUNEFUN"
+__mod_name__ = "ANIMEFUN"
