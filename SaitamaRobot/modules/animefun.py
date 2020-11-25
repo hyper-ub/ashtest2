@@ -16,6 +16,10 @@ from telegram import Update, Bot, ParseMode
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import escape_markdown
 
+from telegram import (ParseMode, Update, InlineKeyboardMarkup, 
+                      InlineKeyboardButton, ReplyKeyboardMarkup, 
+                      KeyboardButton)
+
 from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 from SaitamaRobot.modules.helper_funcs.extraction import extract_user
