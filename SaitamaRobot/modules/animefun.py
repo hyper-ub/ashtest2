@@ -128,7 +128,6 @@ __help__ = """
  - /wallpaper : for random Anime Wallpaper.
  - /slap : for random Anime slap gif.
  - /patgif : for random Anime pat gif.
- - /pat: for random Anime pat image.
  - /wall <query> to get wallpaper
  - /goose : for random duck image.
 """
@@ -145,7 +144,6 @@ NEKOGIF_HANDLER = DisableAbleCommandHandler("nekogif", nekogif)
 WALLPAPER_HANDLER = DisableAbleCommandHandler("wallpaper", wallpaper)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap)
 PATGIF_HANDLER = DisableAbleCommandHandler("patgif", patgif)
-PAT_HANDLER = DisableAbleCommandHandler("pat", pat, admin_ok=True)
 PATGIF_HANDLER = DisableAbleCommandHandler("patgif", patgif)
 GOOSE_HANDLER = DisableAbleCommandHandler("goose", goose)
 WHY_HANDLER = DisableAbleCommandHandler("why", why)
@@ -162,7 +160,6 @@ dispatcher.add_handler(NEKOGIF_HANDLER)
 dispatcher.add_handler(WALLPAPER_HANDLER)
 dispatcher.add_handler(SLAP_HANDLER)
 dispatcher.add_handler(PATGIF_HANDLER)
-dispatcher.add_handler(PAT_HANDLER)
 dispatcher.add_handler(GOOSE_HANDLER)
 dispatcher.add_handler(WHY_HANDLER)
 dispatcher.add_handler(PIKACHU_HANDLER)
