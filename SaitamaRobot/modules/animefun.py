@@ -105,27 +105,18 @@ def why(update: Update, context: CallbackContext):
     
 
 @run_async
-def pat(update: Update, context: CallbackContext):
-    chat_id = update.effective_chat.id
-    msg = str(update.message.text)
-    try:
-        msg = msg.split(" ", 1)[1]
-    except IndexError:
-        msg = ""
-    msg_id = update.effective_message.reply_to_message.message_id if update.effective_message.reply_to_message else update.effective_message.message_id
-    pats = []
-    pats = json.loads(urllib.request.urlopen(urllib.request.Request(
-    'http://headp.at/js/pats.json',
-    headers={'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686) '
-         'Gecko/20071127 Firefox/2.0.0.11'}
-    )).read().decode('utf-8'))
-    if "@" in msg and len(msg) > 5:
-        bot.send_photo(chat_id, f'https://headp.at/pats/{urllib.parse.quote(random.choice(pats))}', caption=msg)
-    else:
-        bot.send_photo(chat_id, f'https://headp.at/pats/{urllib.parse.quote(random.choice(pats))}', reply_to_message_id=msg_id)
-        
+def pikachu(update: Update, _):
+    msg = update.effective_message
+    pikachu = requests.get("https://some-random-api.ml/img/pikachu").json()
+    link = pikachu.get("link")
+    if not link:
+        msg.reply_text("No URL was received from the API!")
+        return
+    msg.reply_video(link)
+
 
 __help__ = """
+- /pikachu : for random Pikachu  Gif.
  - /neko : for random Anime Image.
  - /baka: for random Baka Shout GIFs.
  - /smug: for random Smug GIFs.
@@ -158,6 +149,7 @@ PAT_HANDLER = DisableAbleCommandHandler("pat", pat, admin_ok=True)
 PATGIF_HANDLER = DisableAbleCommandHandler("patgif", patgif)
 GOOSE_HANDLER = DisableAbleCommandHandler("goose", goose)
 WHY_HANDLER = DisableAbleCommandHandler("why", why)
+PIKACHU_HANDLER = DisableAbleCommandHandler("pikachu", pikachu)
 
 dispatcher.add_handler(NEKO_HANDLER)
 dispatcher.add_handler(BAKA_HANDLER)
@@ -173,10 +165,12 @@ dispatcher.add_handler(PATGIF_HANDLER)
 dispatcher.add_handler(PAT_HANDLER)
 dispatcher.add_handler(GOOSE_HANDLER)
 dispatcher.add_handler(WHY_HANDLER)
+dispatcher.add_handler(PIKACHU_HANDLER)
 
 __handlers__ = [
     NEKO_HANDLER, BAKA_HANDLER, SMUG_HANDLER, HOLO_HANDLER, HOLO_HANDLER, POKE_HANDLER, FEED_HANDLER,
-TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER, 
+TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER, GOOSE_HANDLER, WHY_HANDLER,
+ PIKACHU_HANDLER,
 ]
 
 __mod_name__ = "ANIMEFUN"
