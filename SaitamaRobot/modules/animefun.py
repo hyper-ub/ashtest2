@@ -25,7 +25,8 @@ from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 def neko(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "neko"
-    msg.reply_photo(nekos.img(target))
+    keyboard = [[InlineKeyboardButton(text=BotLabSpam, url="https://t.me/BotLabSpam"), InlineKeyboardButton(text="Change",url=t.me/{}?start=neko)]]
+    msg.reply_photo(nekos.img(target)),reply_markup=InlineKeyboardMarkup(keyboard)
 
 @run_async
 def baka(update: Update, context: CallbackContext):
