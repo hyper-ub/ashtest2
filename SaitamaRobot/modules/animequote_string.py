@@ -1,7 +1,7 @@
 #Made By @uday_gondaliya @AST_JayPatel1304
 ANIMEQUOTE = (
     "❝There are days when nothing goes right. There are days when you stumble and fall. There are days when you just want to cry. To cry a lot. To sleep a lot. Or even eat a lot. It’s alright, as long as you pick yourself up again.❞ – Yuki Takeya (Gakkougurashi!)"    
-    "❝Excuse me but are you by any chance the oddball in your family?– Ash Ketchum",
+    "❝Excuse me but are you by any chance the oddball in your family?❞– Ash Ketchum",
     "❝The world isn't perfect. But it's there for us, doing the best it can....that's what makes it so damn beautiful.❞ ~ Roy Mustang (Full Metal Alchemist)",
     "❝To know sorrow is not terrifying. What is terrifying is to know you can't go back to happiness you could have.❞ ~ Matsumoto Rangiku (Bleach)",
     "❝Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But of course it will! Whoever wins this war becomes justice!❞ ~ Don Quixote Doflamingo (One Piece)",
