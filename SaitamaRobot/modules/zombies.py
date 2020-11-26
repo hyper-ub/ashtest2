@@ -5,7 +5,7 @@ from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 from telethon import events
-from SaitamaRobot import oko
+from SaitamaRobot import telethn
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
@@ -36,7 +36,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 # ================================================
 
 
-@oko.on(events.NewMessage(pattern="^[!/]zombies$"))
+@telethn.on(events.NewMessage(pattern="^[!/]zombies$"))
 async def rm_deletedacc(show):
     """ For .zombies command, list all the ghost/deleted/zombie accounts in a chat. """
 
