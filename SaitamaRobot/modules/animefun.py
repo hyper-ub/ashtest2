@@ -32,6 +32,7 @@ def neko(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_photo(nekos.img(target),reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def baka(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -39,6 +40,7 @@ def baka(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_video(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def smug(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -53,7 +55,8 @@ def holo(update: Update, context: CallbackContext):
     target = "holo"
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_photo(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
-
+    
+    
 @run_async
 def poke(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -61,13 +64,15 @@ def poke(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_video(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def feed(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "feed"
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_video(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
-
+    
+    
 @run_async
 def tickle(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -75,6 +80,7 @@ def tickle(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_video(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def nekogif(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -82,6 +88,7 @@ def nekogif(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_video(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def wallpaper(update: Update, context: CallbackContext):
     msg = update.effective_message
@@ -89,12 +96,14 @@ def wallpaper(update: Update, context: CallbackContext):
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_photo(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
 
+    
 @run_async
 def slap(update: Update, context: CallbackContext):
     msg = update.effective_message
     target = "slap"
     keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
     msg.reply_photo(nekos.img(target)reply_markup=InlineKeyboardMarkup(keyboard))
+    
     
 @run_async
 def patgif(update: Update, context: CallbackContext):
