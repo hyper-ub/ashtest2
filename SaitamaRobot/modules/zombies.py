@@ -1,3 +1,4 @@
+
 from asyncio import sleep
 
 from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
@@ -39,7 +40,6 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 async def rm_deletedacc(show):
     """ For .zombies command, list all the ghost/deleted/zombie accounts in a chat. """
 
-    con = show.pattern_match.group(1).lower()
     del_u = 0
     del_status = "`No deleted accounts found, Group is clean`"
 
