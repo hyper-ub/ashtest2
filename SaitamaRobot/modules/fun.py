@@ -1,6 +1,13 @@
 import html
-import random
+import random, re, string, io, asyncio
 import time
+from PIL import Image
+from io import BytesIO
+import base64
+from spongemock import spongemock
+import os
+from pathlib import Path
+import glob
 
 from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
