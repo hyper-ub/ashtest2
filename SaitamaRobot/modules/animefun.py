@@ -117,8 +117,7 @@ def why(update: Update, context: CallbackContext):
     msg = update.effective_message
     why = requests.get("https://nekos.life/api/v2/why").json()
     why = why.get("why")
-    keyboard = [[InlineKeyboardButton(text="BotLabSpam", url="https://t.me/BotLabSpam")]]
-    msg.reply_text(why)reply_markup=InlineKeyboardMarkup(keyboard)
+    msg.reply_text(why)
     
 
 @run_async
