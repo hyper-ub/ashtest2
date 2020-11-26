@@ -1,5 +1,5 @@
 #AnimeFun Module Made By @madepranav on telegram and github id @darkpokefan
-
+"""
 import requests
 import html
 import random
@@ -194,3 +194,4 @@ TICKLE_HANDLER, NEKOGIF_HANDLER, WALLPAPER_HANDLER, SLAP_HANDLER,PATGIF_HANDLER,
 ]
 
 __mod_name__ = "ANIMEFUN"
+"""
